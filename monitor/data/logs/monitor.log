@@ -1,0 +1,17 @@
+2026-06-04 00:20:36,950 [INFO] monitor.pipeline: 序列 20260531213418: 1 行
+2026-06-04 00:20:37,183 [ERROR] monitor.pipeline: 赛题流水线失败 20260531213418: Cannot subtract tz-naive and tz-aware datetime-like objects.
+2026-06-04 00:20:39,671 [ERROR] monitor.pipeline: 刷新失败 20260531213418: 'str' object has no attribute 'tzinfo'
+2026-06-04 00:20:40,395 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-04 00:20:40,396 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-04 00:20:40,396 [INFO] __main__: 启动: 轮询 5 min, 日报 09:00 Asia/Shanghai
+2026-06-04 00:20:41,042 [INFO] apscheduler.scheduler: Added job "run_pipeline" to job store "default"
+2026-06-04 00:20:41,042 [INFO] apscheduler.scheduler: Added job "main.<locals>.<lambda>" to job store "default"
+2026-06-04 00:20:41,042 [INFO] apscheduler.scheduler: Scheduler started
+2026-06-04 00:25:40,396 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-04 00:25:40 CST)" (scheduled at 2026-06-04 00:25:40.395624+08:00)
+2026-06-04 00:25:44,766 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-04 00:30:40 CST)" executed successfully
+2026-06-04 00:25:52,745 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-04 00:25:52,746 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-04 00:25:52,746 [INFO] __main__: 启动: 轮询 5 min, 日报 09:00 Asia/Shanghai
+2026-06-04 00:25:54,159 [INFO] apscheduler.scheduler: Added job "run_pipeline" to job store "default"
+2026-06-04 00:25:54,159 [INFO] apscheduler.scheduler: Added job "main.<locals>.<lambda>" to job store "default"
+2026-06-04 00:25:54,159 [INFO] apscheduler.scheduler: Scheduler started

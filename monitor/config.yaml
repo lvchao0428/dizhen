@@ -1,0 +1,31 @@
+poll_interval_minutes: 5
+lookback_days: 7
+notify_max_age_hours: 48
+
+min_magnitude_submit: 6.0
+min_magnitude_watch: 5.8
+usgs_fetch_max_depth_km: 1000
+competition_max_depth_km: 70
+
+sequence_radius_km: 300
+sequence_hours: 168
+
+model_path: solution/models_v3/models.pkl
+ranking_output_dir: monitor/ranking_output
+data_dir: monitor/data
+sequences_dir: monitor/data/sequences
+
+tianchi_url: "https://tianchi.aliyun.com/competition/entrance/532460/submission"
+
+remind_t12_urgent_hours: 20
+remind_t3_prep_hours: 48
+remind_t3_urgent_hours: 68
+refresh_t2_hours: 23
+refresh_t3_hours: 71
+
+digest_lookback_days: 30
+digest_timezone: Asia/Shanghai
+digest_cron_hour: 9
+digest_cron_minute: 0
+digest_backfill_on_daily: true
+digest_max_chars: 28000
