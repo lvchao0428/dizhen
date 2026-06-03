@@ -17,7 +17,9 @@ if str(REPO_ROOT) not in sys.path:
 from monitor.config import get_config
 
 
-def collect_files(ranking_dir: str, event_id: str | None = None) -> list[tuple[str, str]]:
+def collect_files(
+    ranking_dir: str, event_id: str | None = None, *, include_aux: bool = True
+) -> list[tuple[str, str]]:
     files = []
     root = Path(ranking_dir)
     dirs = [root / event_id] if event_id else sorted(p for p in root.iterdir() if p.is_dir())
@@ -26,10 +28,15 @@ def collect_files(ranking_dir: str, event_id: str | None = None) -> list[tuple[s
             continue
         for p in sorted(d.glob("*-T1-T2.csv")) + sorted(d.glob("*-T3.csv")):
             files.append((p.name, str(p)))
-        comp = d / "window_comparison.md"
-        if comp.is_file():
-            files.append((f"{d.name}_window_comparison.md", str(comp)))
+        if include_aux:
+            comp = d / "window_comparison.md"
+            if comp.is_file():
+                files.append((f"{d.name}_window_comparison.md", str(comp)))
     return files
+
+
+def collect_csv_only(ranking_dir: str, event_id: str | None = None) -> list[tuple[str, str]]:
+    return collect_files(ranking_dir, event_id, include_aux=False)
 
 
 def create_zip(cfg: dict, event_id: str | None = None, output_zip: str | None = None) -> str:
