@@ -1,0 +1,36 @@
+# 复制为 monitor/config.yaml 并按需修改
+
+poll_interval_minutes: 5
+lookback_days: 7
+# 仅对主震后 N 小时内的新事件发通知（避免首次启动刷屏）
+notify_max_age_hours: 48
+
+# 触发阈值
+min_magnitude_submit: 6.0
+min_magnitude_watch: 5.8
+max_depth_km: 70
+
+# 序列构建
+sequence_radius_km: 300
+sequence_hours: 168
+
+# 路径（相对仓库根目录）
+model_path: solution/models_v3/models.pkl
+ranking_output_dir: monitor/ranking_output
+data_dir: monitor/data
+sequences_dir: monitor/data/sequences
+
+# 天池提交页
+tianchi_url: "https://tianchi.aliyun.com/competition/entrance/532460/submission"
+
+# Server酱（也可仅用 .env 中的 SERVERCHAN_SENDKEY）
+serverchan_sendkey: ""
+
+# 截止提醒（主震后小时）
+remind_t12_urgent_hours: 20
+remind_t3_prep_hours: 48
+remind_t3_urgent_hours: 68
+
+# 自动刷新预测（主震后小时）
+refresh_t2_hours: 23
+refresh_t3_hours: 71

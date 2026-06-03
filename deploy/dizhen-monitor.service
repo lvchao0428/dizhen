@@ -1,0 +1,16 @@
+[Unit]
+Description=Dizhen ranking competition earthquake monitor
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=charlie
+WorkingDirectory=/home/charlie/project/dizhen
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/home/charlie/project/dizhen/.venv/bin/python -m monitor.run_daemon
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

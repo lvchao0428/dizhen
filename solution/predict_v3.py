@@ -6,16 +6,20 @@
 from __future__ import annotations
 
 import os
-import pickle
-from datetime import timedelta
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, Optional, Tuple
 
 import numpy as np
 import pandas as pd
 from lightgbm import LGBMRegressor
 from sklearn.preprocessing import StandardScaler
 
-from features import WINDOW_BOUNDS, WINDOW_CUTOFF, build_features
+from features import WINDOW_BOUNDS, build_features
+from inference_v3 import (
+    identify_mainshock_and_aftershocks,
+    predict_all,
+    save_models,
+    write_submission,
+)
 
 import warnings
 
@@ -73,21 +77,6 @@ def load_eq_sequence(timestamp: str) -> pd.DataFrame:
     df = pd.read_csv(path, encoding="utf-8-sig")
     df["datetime"] = pd.to_datetime(df["Date"] + " " + df["Time"])
     return df
-
-
-def identify_mainshock_and_aftershocks(
-    seq_df: pd.DataFrame, mainshock_time: pd.Timestamp, mainshock_mag: float
-) -> Tuple[pd.Series, pd.DataFrame]:
-    tol = pd.Timedelta(hours=2)
-    candidates = seq_df[
-        (abs(seq_df["datetime"] - mainshock_time) < tol)
-        & (seq_df["Mag"] >= mainshock_mag - 0.5)
-    ]
-    idx = candidates["Mag"].idxmax() if len(candidates) else seq_df["Mag"].idxmax()
-    main = seq_df.loc[idx]
-    after = seq_df[seq_df["datetime"] > main["datetime"]].copy()
-    after["hours_after"] = (after["datetime"] - main["datetime"]).dt.total_seconds() / 3600
-    return main, after
 
 
 def label_in_window(aftershocks: pd.DataFrame, t_start: float, t_end: float) -> Tuple[Optional[float], Optional[float]]:
@@ -220,87 +209,6 @@ def train_final_models(dataset: pd.DataFrame) -> Dict:
     return models
 
 
-def clip_predictions(
-    pred_mag: float, pred_hours: float, m_main: float, t_start: float, t_end: float
-) -> Tuple[float, float]:
-    pred_mag = min(pred_mag, m_main - 0.3)
-    pred_mag = max(pred_mag, m_main - 3.0)
-    pred_mag = max(pred_mag, 2.0)
-    pred_hours = max(pred_hours, t_start + 0.5)
-    pred_hours = min(pred_hours, t_end - 0.5)
-    return round(pred_mag, 1), pred_hours
-
-
-def predict_all(
-    catalog: pd.DataFrame,
-    sequences: Dict[str, pd.DataFrame],
-    models: Dict,
-    w_ml: Dict[str, float],
-) -> Dict[str, Dict[str, dict]]:
-    predictions = {}
-    for _, row in catalog.iterrows():
-        ts = row["timestamp"]
-        seq = sequences[ts]
-        _, after = identify_mainshock_and_aftershocks(seq, row["datetime"], row["Mag"])
-        eq_pred = {}
-
-        for window in ("T1", "T2", "T3"):
-            t_start, t_end = WINDOW_BOUNDS[window]
-            feat, stat = build_features(
-                row["Mag"],
-                row["Depth"],
-                row["Lon"],
-                row["Lat"],
-                str(row["MagType"]),
-                str(row["Source"]),
-                after,
-                window,
-            )
-            scaler = models[f"{window}_mag"]["scaler"]
-            Xs = scaler.transform(feat.reshape(1, -1))
-            ml_mag = models[f"{window}_mag"]["model"].predict(Xs)[0]
-            ml_time = models[f"{window}_time"]["model"].predict(Xs)[0]
-
-            w = w_ml[window]
-            pred_mag = w * ml_mag + (1 - w) * stat["bath_mag"]
-            pred_hours = w * ml_time + (1 - w) * stat["omori_time"]
-            pred_mag, pred_hours = clip_predictions(pred_mag, pred_hours, row["Mag"], t_start, t_end)
-
-            pred_time = row["datetime"] + timedelta(hours=pred_hours)
-            eq_pred[window] = {"mag": pred_mag, "time": pred_time, "hours": pred_hours}
-
-        predictions[ts] = eq_pred
-    return predictions
-
-
-def format_time(dt: pd.Timestamp) -> str:
-    return dt.strftime("%Y%m%d%H")
-
-
-def write_submission(catalog: pd.DataFrame, predictions: Dict, output_dir: str) -> None:
-    os.makedirs(output_dir, exist_ok=True)
-    for _, row in catalog.iterrows():
-        ts = row["timestamp"]
-        pred = predictions[ts]
-        mag_type = row["MagType"]
-        with open(os.path.join(output_dir, f"{ts}-T1-T2.csv"), "w", encoding="utf-8") as f:
-            t1, t2 = pred["T1"], pred["T2"]
-            f.write(
-                f"{ts} {row['Lon']:.2f} {row['Lat']:.2f} {row['Mag']:.1f} "
-                f"{t1['mag']:.1f} ({mag_type}) {format_time(t1['time'])}\n"
-            )
-            f.write(
-                f"{ts} {row['Lon']:.2f} {row['Lat']:.2f} {row['Mag']:.1f} "
-                f"{t2['mag']:.1f} ({mag_type}) {format_time(t2['time'])}\n"
-            )
-        with open(os.path.join(output_dir, f"{ts}-T3.csv"), "w", encoding="utf-8") as f:
-            t3 = pred["T3"]
-            f.write(
-                f"{ts} {row['Lon']:.2f} {row['Lat']:.2f} {row['Mag']:.1f} "
-                f"{t3['mag']:.1f} ({mag_type}) {format_time(t3['time'])}\n"
-            )
-
-
 def main() -> None:
     print("=" * 60)
     print("余震预测资格赛 v3 (ML-heavy, no leakage)")
@@ -322,8 +230,7 @@ def main() -> None:
     print("\n[全量训练 + 生成提交]")
     models = train_final_models(dataset)
     os.makedirs(MODEL_DIR, exist_ok=True)
-    with open(os.path.join(MODEL_DIR, "models.pkl"), "wb") as f:
-        pickle.dump({"models": models, "w_ml": w_ml}, f)
+    save_models(models, w_ml, os.path.join(MODEL_DIR, "models.pkl"))
 
     predictions = predict_all(catalog, sequences, models, w_ml)
     write_submission(catalog, predictions, OUTPUT_DIR)
