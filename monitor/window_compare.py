@@ -26,10 +26,8 @@ WINDOW_NAMES = {
 
 
 def _mainshock_dt(ev: Dict[str, Any]) -> pd.Timestamp:
-    ts = pd.Timestamp(ev["mainshock_utc"])
-    if ts.tzinfo is None:
-        ts = ts.tz_localize("UTC")
-    return ts
+    from monitor.time_utils import to_utc_timestamp
+    return to_utc_timestamp(ev["mainshock_utc"])
 
 
 def hours_since_mainshock(ev: Dict[str, Any]) -> float:
@@ -154,9 +152,8 @@ def build_window_comparison(
                 "time_str": format_time(pred_time) if pred_time is not None else None,
             }
         if obs:
-            obs_time = obs["datetime"]
-            if obs_time.tzinfo is None:
-                obs_time = obs_time.tz_localize("UTC")
+            from monitor.time_utils import to_utc_timestamp
+            obs_time = to_utc_timestamp(obs["datetime"])
             row["observed"] = {
                 "mag": obs["mag"],
                 "hours_after": obs["hours_after"],

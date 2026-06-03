@@ -39,11 +39,8 @@ def format_new_event_message(ev: Dict[str, Any], cfg: Dict[str, Any], pred_resul
 
 
 def pd_timestamp_bj(ms) -> str:
-    import pandas as pd
-    ts = pd.Timestamp(ms)
-    if ts.tzinfo is None:
-        ts = ts.tz_localize("UTC")
-    return ts.tz_convert("Asia/Shanghai").strftime("%Y-%m-%d %H:%M:%S 北京时间")
+    from monitor.time_utils import to_utc_timestamp
+    return to_utc_timestamp(ms).tz_convert("Asia/Shanghai").strftime("%Y-%m-%d %H:%M:%S 北京时间")
 
 
 def notify(cfg: Dict[str, Any], title: str, desp: str) -> bool:

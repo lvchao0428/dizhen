@@ -21,6 +21,7 @@ from inference_v3 import (  # noqa: E402
     predictions_summary,
     write_event_submission,
 )
+from monitor.time_utils import sequence_datetimes_utc, to_utc_timestamp  # noqa: E402
 
 
 def load_sequence_csv(event_id: str, sequences_dir: str) -> pd.DataFrame:
@@ -30,9 +31,7 @@ def load_sequence_csv(event_id: str, sequences_dir: str) -> pd.DataFrame:
             columns=["Date", "Time", "Lon", "Lat", "Depth", "Mag", "MagType", "Source"]
         )
     df = pd.read_csv(path, encoding="utf-8-sig")
-    if len(df) > 0:
-        df["datetime"] = pd.to_datetime(df["Date"] + " " + df["Time"])
-    return df
+    return sequence_datetimes_utc(df)
 
 
 def run_prediction(
@@ -55,13 +54,11 @@ def run_prediction(
     else:
         models, w_ml = models_bundle
 
-    ms = ev["mainshock_utc"]
-    if isinstance(ms, str):
-        ms = pd.Timestamp(ms).to_pydatetime()
+    ms_utc = to_utc_timestamp(ev["mainshock_utc"])
 
     catalog_row = catalog_row_from_dict(
         event_id=ev["event_id"],
-        dt=pd.Timestamp(ms),
+        dt=ms_utc,
         lon=ev["lon"],
         lat=ev["lat"],
         depth=ev.get("depth", 10),

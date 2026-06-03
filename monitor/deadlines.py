@@ -6,6 +6,8 @@ import logging
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Tuple
 
+import pandas as pd
+
 from monitor.notifier import notify, pd_timestamp_bj
 
 logger = logging.getLogger(__name__)
@@ -22,8 +24,9 @@ def _parse_ms(value) -> datetime:
 
 
 def hours_since_mainshock(ev: Dict[str, Any]) -> float:
-    ms = _parse_ms(ev["mainshock_utc"])
-    now = datetime.now(timezone.utc)
+    from monitor.time_utils import to_utc_timestamp
+    ms = to_utc_timestamp(ev["mainshock_utc"])
+    now = pd.Timestamp.now(tz="UTC")
     return (now - ms).total_seconds() / 3600
 
 

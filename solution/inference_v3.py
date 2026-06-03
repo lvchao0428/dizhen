@@ -16,13 +16,24 @@ import pandas as pd
 from features import WINDOW_BOUNDS, build_features
 
 
+def _as_utc(ts) -> pd.Timestamp:
+    t = pd.Timestamp(ts)
+    if t.tzinfo is None:
+        return t.tz_localize("UTC")
+    return t.tz_convert("UTC")
+
+
 def identify_mainshock_and_aftershocks(
     seq_df: pd.DataFrame, mainshock_time: pd.Timestamp, mainshock_mag: float
 ) -> Tuple[pd.Series, pd.DataFrame]:
     tol = pd.Timedelta(hours=2)
+    mainshock_time = _as_utc(mainshock_time)
     if len(seq_df) == 0:
         empty = pd.DataFrame(columns=list(seq_df.columns) + ["hours_after"])
         return pd.Series(dtype=object), empty
+
+    seq_df = seq_df.copy()
+    seq_df["datetime"] = pd.to_datetime(seq_df["datetime"], utc=True)
 
     candidates = seq_df[
         (abs(seq_df["datetime"] - mainshock_time) < tol)
@@ -72,22 +83,23 @@ def catalog_row_from_dict(
 ) -> pd.Series:
     """由排名赛主震参数构造 catalog 单行。"""
     mag_type_norm = normalize_mag_type(mag_type)
+    dt_utc = _as_utc(dt)
     return pd.Series(
         {
             "timestamp": event_id,
-            "Year": dt.year,
-            "Month": dt.month,
-            "Day": dt.day,
-            "Hour": dt.hour,
-            "Minute": dt.minute,
-            "Second": dt.second,
+            "Year": dt_utc.year,
+            "Month": dt_utc.month,
+            "Day": dt_utc.day,
+            "Hour": dt_utc.hour,
+            "Minute": dt_utc.minute,
+            "Second": dt_utc.second,
             "Lon": lon,
             "Lat": lat,
             "Depth": depth if depth and depth > 0 else 10.0,
             "Mag": mag,
             "MagType": mag_type_norm,
             "Source": source,
-            "datetime": dt,
+            "datetime": dt_utc,
         }
     )
 
@@ -117,7 +129,10 @@ def predict_event(
         )
     elif "datetime" not in seq_df.columns:
         seq_df = seq_df.copy()
-        seq_df["datetime"] = pd.to_datetime(seq_df["Date"] + " " + seq_df["Time"])
+        seq_df["datetime"] = pd.to_datetime(seq_df["Date"] + " " + seq_df["Time"], utc=True)
+    else:
+        seq_df = seq_df.copy()
+        seq_df["datetime"] = pd.to_datetime(seq_df["datetime"], utc=True)
 
     _, after = identify_mainshock_and_aftershocks(
         seq_df, catalog_row["datetime"], catalog_row["Mag"]

@@ -16,6 +16,7 @@ from monitor.model_info import get_model_status
 from monitor.notifier import format_new_event_message, notify
 from monitor.sources import usgs
 from monitor.store import EventStore
+from monitor.time_utils import normalize_event
 
 logger = logging.getLogger(__name__)
 
@@ -80,7 +81,7 @@ def _notify_competition_ready(ev: Dict[str, Any], cfg: Dict[str, Any], pred_resu
 def process_new_event(
     ev: Dict[str, Any], store: EventStore, cfg: Dict[str, Any], models_bundle: Optional[Tuple] = None
 ) -> None:
-    ev = dict(ev)
+    ev = normalize_event(ev)
     ev["competition_eligible"] = ev.get("competition_eligible", is_competition_eligible(ev, cfg))
     ev["output_dir"] = os.path.join(cfg["ranking_output_dir"], ev["event_id"])
 
@@ -114,6 +115,7 @@ def process_new_event(
 
 
 def refresh_event(ev: Dict[str, Any], store: EventStore, cfg: Dict[str, Any], kind: str) -> None:
+    ev = normalize_event(ev)
     if not ev.get("competition_eligible"):
         return
     try:
@@ -142,7 +144,11 @@ def run_pipeline(models_bundle: Optional[Tuple] = None) -> Dict[str, Any]:
             process_new_event(ev, store, cfg, models_bundle=models_bundle)
             processed.append(ev["event_id"])
 
-    reminders = check_deadlines(store, cfg, on_refresh=lambda e, k: refresh_event(e, store, cfg, k))
+    reminders = check_deadlines(
+        store,
+        cfg,
+        on_refresh=lambda e, k: refresh_event(normalize_event(e), store, cfg, k),
+    )
     return {
         "checked": len(new_events),
         "new_processed": processed,
