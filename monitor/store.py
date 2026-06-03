@@ -44,7 +44,8 @@ class EventStore:
                     reminded_t3_prep INTEGER DEFAULT 0,
                     reminded_t3_urgent INTEGER DEFAULT 0,
                     refreshed_t2 INTEGER DEFAULT 0,
-                    refreshed_t3 INTEGER DEFAULT 0
+                    refreshed_t3 INTEGER DEFAULT 0,
+                    competition_eligible INTEGER DEFAULT 0
                 );
                 CREATE TABLE IF NOT EXISTS reminders (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -55,6 +56,11 @@ class EventStore:
                 );
                 """
             )
+            cols = {row[1] for row in conn.execute("PRAGMA table_info(events)")}
+            if "competition_eligible" not in cols:
+                conn.execute(
+                    "ALTER TABLE events ADD COLUMN competition_eligible INTEGER DEFAULT 0"
+                )
 
     def get_event(self, event_id: str) -> Optional[Dict[str, Any]]:
         with self._conn() as conn:
@@ -99,8 +105,8 @@ class EventStore:
                 INSERT INTO events (
                     event_id, usgs_id, source, lon, lat, depth, mag, mag_type,
                     category, place, mainshock_utc, detected_at, status,
-                    t1_t2_deadline, t3_deadline, output_dir
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    t1_t2_deadline, t3_deadline, output_dir, competition_eligible
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     ev["event_id"],
@@ -119,6 +125,7 @@ class EventStore:
                     t12,
                     t3,
                     ev.get("output_dir", ""),
+                    1 if ev.get("competition_eligible") else 0,
                 ),
             )
         return True

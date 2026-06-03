@@ -1,52 +1,59 @@
 # 排名赛监控 Pipeline
 
-全球 M6+ 地震监控、Server酱微信通知、v3 模型自动生成提交 CSV。
+- **实时**：M≥5.8 微信通知（不限深度）；浅源 M≥6 自动拉序列、v3 预测、生成 CSV
+- **微信内容**：模型预估 vs 官方(USGS) 各窗对比；无余震时提示「数据为空」
+- **每日 09:00 北京时间**：M6+ 汇总日报
+- **手动**：`run_digest` / `run_compare` / `package_submission`
 
-## 快速开始（远程服务器）
+## 部署（远程）
 
 ```bash
-cd /path/to/dizhen
+cd ~/project/dizhen
 
-# 1. 配置密钥
-cp monitor/.env.example monitor/.env
-# 编辑 SERVERCHAN_SENDKEY=...
+# Windows 同步后先去 CRLF
+sed -i 's/\r$//' deploy/install_monitor.sh deploy/package_submission.sh
 
+cp monitor/.env.example monitor/.env   # SERVERCHAN_SENDKEY
 cp monitor/config.example.yaml monitor/config.yaml
 
-# 2. 安装并启动
-chmod +x deploy/install_monitor.sh
-./deploy/install_monitor.sh
+bash deploy/install_monitor.sh
 
-# 3. 启动服务（若已安装 systemd）
-sudo systemctl start dizhen-monitor
+sudo systemctl status dizhen-monitor
 ```
 
-## 手动单次运行
+勿用 `sh install_monitor.sh`；勿在 CRLF 未修时用 `./install_monitor.sh`。
+
+## 模型
+
+- 仓库默认**无** `solution/models_v3/models.pkl`
+- 训练：`cd solution && python predict_v3.py`（约 **1–2 分钟**，20 震例 × 3 窗）
+- 资格赛 v3 方案，LOEO + LightGBM
+
+## 常用命令
 
 ```bash
 source .venv/bin/activate
-python -m monitor.run_once
+
+python -m monitor.run_once              # 单次轮询
+python -m monitor.run_digest --print-only --days 30
+python -m monitor.run_digest --notify --backfill
+python -m monitor.run_compare 20260531213418 --predict
+bash deploy/package_submission.sh
 ```
 
-## 输出
+## 目录
 
-- 预测 CSV：`monitor/ranking_output/{event_id}/`
-- 余震序列：`monitor/data/sequences/{event_id}_eq.csv`
-- 状态库：`monitor/data/events.sqlite`
-- 日志：`monitor/data/logs/monitor.log`
+| 路径 | 说明 |
+|------|------|
+| `monitor/ranking_output/{id}/` | `*-T1-T2.csv`, `*-T3.csv`, `window_comparison.md` |
+| `monitor/data/sequences/` | USGS 余震序列 |
+| `monitor/data/submissions/` | 打包 ZIP |
 
-## 训练模型
+## 逻辑
 
-若 `solution/models_v3/models.pkl` 不存在：
+| 条件 | 微信 | 序列+预测+CSV |
+|------|------|----------------|
+| M≥6 深度≤70km | 是 | 是 |
+| M≥6 深度>70km | 是（仅监测） | 否 |
 
-```bash
-cd solution && python predict_v3.py
-```
-
-## 配置说明
-
-见 `monitor/config.example.yaml`：
-
-- `poll_interval_minutes`: 轮询间隔（默认 5 分钟）
-- `notify_max_age_hours`: 仅对主震后 48h 内新事件推送（避免首次启动刷屏）
-- `SERVERCHAN_SENDKEY`: 放在 `monitor/.env`
+官方余震来源：排名赛实时阶段用 **USGS**；观测为空时推送中会写明。

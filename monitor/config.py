@@ -32,6 +32,8 @@ def get_config() -> Dict[str, Any]:
         "min_magnitude_submit": 6.0,
         "min_magnitude_watch": 5.8,
         "max_depth_km": 70,
+        "competition_max_depth_km": 70,
+        "usgs_fetch_max_depth_km": 1000,
         "sequence_radius_km": 300,
         "sequence_hours": 168,
         "model_path": "solution/models_v3/models.pkl",
@@ -45,6 +47,12 @@ def get_config() -> Dict[str, Any]:
         "remind_t3_urgent_hours": 68,
         "refresh_t2_hours": 23,
         "refresh_t3_hours": 71,
+        "digest_lookback_days": 30,
+        "digest_timezone": "Asia/Shanghai",
+        "digest_cron_hour": 9,
+        "digest_cron_minute": 0,
+        "digest_backfill_on_daily": True,
+        "digest_max_chars": 28000,
     }
     merged = {**defaults, **cfg}
     for key in ("model_path", "ranking_output_dir", "data_dir", "sequences_dir"):

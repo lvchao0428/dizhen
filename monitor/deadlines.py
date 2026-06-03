@@ -39,6 +39,8 @@ def check_deadlines(
     """
     sent = []
     for ev in store.list_active_events():
+        if not ev.get("competition_eligible"):
+            continue
         eid = ev["event_id"]
         h = hours_since_mainshock(ev)
 

@@ -138,14 +138,16 @@ def fetch_sequence(
     radius_km: float = 300,
     hours: float = 168,
     minmagnitude: float = 2.5,
+    mainshock_mag: float | None = None,
+    mainshock_mag_type: str = "mw",
 ) -> pd.DataFrame:
-    """拉取主震后序列内事件，输出与 test_eq_data 相同列格式。"""
-    end = datetime.now(timezone.utc)
-    start = mainshock_utc
+    """拉取主震后序列（含主震行）。"""
+    if mainshock_utc.tzinfo is None:
+        mainshock_utc = mainshock_utc.replace(tzinfo=timezone.utc)
 
     raw = fetch_events(
-        starttime=start,
-        endtime=end,
+        starttime=mainshock_utc,
+        endtime=datetime.now(timezone.utc),
         minmagnitude=minmagnitude,
         maxdepth=1000,
         latitude=lat,
@@ -154,12 +156,28 @@ def fetch_sequence(
     )
 
     rows = []
+    if mainshock_mag is not None:
+        rows.append(
+            {
+                "Date": mainshock_utc.strftime("%Y-%m-%d"),
+                "Time": mainshock_utc.strftime("%H:%M:%S"),
+                "Lon": lon,
+                "Lat": lat,
+                "Depth": 10.0,
+                "Mag": mainshock_mag,
+                "MagType": mainshock_mag_type,
+                "Source": "USGS",
+                "datetime": pd.Timestamp(mainshock_utc),
+            }
+        )
+
     for ev in raw:
         dt = ev["mainshock_utc"]
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
         if dt < mainshock_utc:
             continue
-        hours_after = (dt - mainshock_utc).total_seconds() / 3600
-        if hours_after > hours:
+        if (dt - mainshock_utc).total_seconds() / 3600 > hours:
             continue
         rows.append(
             {
@@ -171,7 +189,7 @@ def fetch_sequence(
                 "Mag": ev["mag"],
                 "MagType": ev["mag_type"],
                 "Source": "USGS",
-                "datetime": pd.Timestamp(dt).tz_localize(None),
+                "datetime": pd.Timestamp(dt),
             }
         )
 
@@ -180,9 +198,8 @@ def fetch_sequence(
             columns=["Date", "Time", "Lon", "Lat", "Depth", "Mag", "MagType", "Source"]
         )
 
-    df = pd.DataFrame(rows)
-    df = df.sort_values("datetime").drop_duplicates(
-        subset=["Date", "Time", "Lon", "Lat", "Mag"], keep="first"
+    df = pd.DataFrame(rows).sort_values("datetime").drop_duplicates(
+        subset=["Date", "Time", "Lon", "Lat"], keep="first"
     )
     return df.drop(columns=["datetime"])
 
