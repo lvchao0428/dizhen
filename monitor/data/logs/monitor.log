@@ -15,3 +15,11 @@
 2026-06-04 00:25:54,159 [INFO] apscheduler.scheduler: Added job "run_pipeline" to job store "default"
 2026-06-04 00:25:54,159 [INFO] apscheduler.scheduler: Added job "main.<locals>.<lambda>" to job store "default"
 2026-06-04 00:25:54,159 [INFO] apscheduler.scheduler: Scheduler started
+2026-06-04 00:30:52,745 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-04 00:30:52 CST)" (scheduled at 2026-06-04 00:30:52.745356+08:00)
+2026-06-04 00:30:55,015 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-04 00:35:52 CST)" executed successfully
+2026-06-04 00:44:43,929 [INFO] monitor.pipeline: 序列 20260527150111: 1 行
+2026-06-04 00:44:45,203 [INFO] monitor.pipeline: 序列 20260527145104: 2 行
+2026-06-04 00:44:46,034 [INFO] monitor.pipeline: 序列 20260520174301: 1 行
+2026-06-04 00:44:49,751 [INFO] monitor.pipeline: 序列 20260516145005: 1 行
+2026-06-04 00:44:50,403 [INFO] monitor.pipeline: 序列 20260515112201: 1 行
+2026-06-04 00:44:51,413 [INFO] monitor.pipeline: 序列 20260509044221: 2 行
