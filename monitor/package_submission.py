@@ -59,7 +59,7 @@ def create_zip(
     with zipfile.ZipFile(output_zip, "w", zipfile.ZIP_DEFLATED) as zf:
         for arc, full in pairs:
             zf.write(full, arcname=arc)
-    return output_zip
+    return output_zip, [arc for arc, _ in pairs]
 
 
 def main() -> None:
@@ -69,9 +69,10 @@ def main() -> None:
     p.add_argument("--include-aux", action="store_true", help="同时包含 window_comparison.md 等辅助文件")
     args = p.parse_args()
     cfg = get_config()
-    path = create_zip(cfg, args.event, args.output, csv_only=not args.include_aux)
-    collector = collect_files if args.include_aux else collect_csv_only
-    print(f"已打包 {len(collector(cfg['ranking_output_dir'], args.event))} 个文件 -> {path}")
+    path, names = create_zip(cfg, args.event, args.output, csv_only=not args.include_aux)
+    print(f"已打包 {len(names)} 个文件 -> {path}")
+    for n in names:
+        print(f"  - {n}")
 
 
 if __name__ == "__main__":

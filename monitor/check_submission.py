@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""提交前检查：CSV 列表、大小、行数（天池 ≤100MB、格式为 CSV）。"""
+"""提交前检查：CSV 列表、行数，并生成天池上传用 ZIP（≤100MB）。"""
 
 from __future__ import annotations
 
@@ -72,9 +72,12 @@ def check(cfg: dict, event_id: str | None = None, zip_path: str | None = None) -
             zip_path = os.path.join(cfg["data_dir"], "submissions", "check_latest.zip")
             os.makedirs(os.path.dirname(zip_path), exist_ok=True)
 
-        zip_path = create_zip(cfg, event_id, zip_path, csv_only=True)
+        zip_path, names = create_zip(cfg, event_id, zip_path, csv_only=True)
         zsize = os.path.getsize(zip_path)
         print(f"\n已生成提交 ZIP: {zip_path} ({zsize} B)")
+        print(f"ZIP 内含 {len(names)} 个 CSV（根目录平铺，命名与赛题一致）:")
+        for n in names:
+            print(f"  - {n}")
         if zsize > MAX_BYTES:
             print("✗ ZIP 超过 100MB")
             return 2
