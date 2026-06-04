@@ -39,8 +39,15 @@ def collect_csv_only(ranking_dir: str, event_id: str | None = None) -> list[tupl
     return collect_files(ranking_dir, event_id, include_aux=False)
 
 
-def create_zip(cfg: dict, event_id: str | None = None, output_zip: str | None = None) -> str:
-    pairs = collect_files(cfg["ranking_output_dir"], event_id)
+def create_zip(
+    cfg: dict,
+    event_id: str | None = None,
+    output_zip: str | None = None,
+    *,
+    csv_only: bool = True,
+) -> str:
+    """打包提交 ZIP（天池排名赛直接上传）。csv_only=True 时只含 CSV。"""
+    pairs = (collect_csv_only if csv_only else collect_files)(cfg["ranking_output_dir"], event_id)
     if not pairs:
         raise FileNotFoundError(f"无提交文件: {cfg['ranking_output_dir']}")
     pack_dir = os.path.join(cfg["data_dir"], "submissions")
@@ -56,13 +63,15 @@ def create_zip(cfg: dict, event_id: str | None = None, output_zip: str | None = 
 
 
 def main() -> None:
-    p = argparse.ArgumentParser()
-    p.add_argument("--event")
-    p.add_argument("-o", "--output")
+    p = argparse.ArgumentParser(description="打包排名赛 CSV 为 ZIP（可直接上传天池）")
+    p.add_argument("--event", help="只打包单个事件 ID")
+    p.add_argument("-o", "--output", help="输出 ZIP 路径")
+    p.add_argument("--include-aux", action="store_true", help="同时包含 window_comparison.md 等辅助文件")
     args = p.parse_args()
     cfg = get_config()
-    path = create_zip(cfg, args.event, args.output)
-    print(f"已打包 {len(collect_files(cfg['ranking_output_dir'], args.event))} 个文件 -> {path}")
+    path = create_zip(cfg, args.event, args.output, csv_only=not args.include_aux)
+    collector = collect_files if args.include_aux else collect_csv_only
+    print(f"已打包 {len(collector(cfg['ranking_output_dir'], args.event))} 个文件 -> {path}")
 
 
 if __name__ == "__main__":

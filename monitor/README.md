@@ -1,6 +1,6 @@
 # 排名赛监控 Pipeline
 
-7×24 监测全球 M6+ 地震，微信（Server酱）通知；符合赛题条件（M≥6、深度≤70 km）时自动拉 USGS 序列、跑 v3 模型、生成天池提交 CSV，并按时提醒 T1-T2 / T3 截止。
+7×24 监测全球 M6+ 地震，微信（Server酱）通知；符合赛题条件（M≥6.0，不限深度）时自动拉 USGS 序列、跑 v3 模型、生成天池提交 CSV，并按时提醒 T1-T2 / T3 截止。
 
 ## 功能概览
 
@@ -8,7 +8,7 @@
 |------|------|
 | **实时轮询** | 默认每 **5 分钟** 查 USGS，发现新事件后入库并处理 |
 | **微信推送** | M≥5.8 发监测通知；赛题有效事件另发「已出 CSV」及窗内对比 |
-| **自动预测** | 浅源 M≥6：序列 + v3 推理 → `monitor/ranking_output/{id}/` |
+| **自动预测** | M≥6.0：序列 + v3 推理 → `monitor/ranking_output/{id}/` |
 | **截止提醒** | 主震后约 20h / 48h / 68h 提醒 T1-T2、T3 准备与紧急提交 |
 | **自动刷新** | 约 23h 刷新 T2 预测，约 71h 刷新 T3（重拉序列 + 重写 CSV） |
 | **每日日报** | 每天 **09:00 北京时间** M6+ 汇总（可含未跑 pipeline 的补跑） |
@@ -17,8 +17,7 @@
 
 | 条件 | 微信 | 序列 + 预测 + CSV |
 |------|------|-------------------|
-| M≥6，深度 ≤70 km | 是 | 是 |
-| M≥6，深度 >70 km | 是（仅监测） | 否 |
+| M≥6.0（不限深度） | 是 | 是 |
 | M≥5.8 且 <6 | 按配置（默认监测阈值 5.8） | 否 |
 
 官方余震对比（排名赛实时阶段）：**USGS**；窗内无记录时推送会写明。
@@ -33,8 +32,8 @@
 |------|------|
 | **剩余次数** | 例如「剩余提交次数 **3** 次」——全赛段/platform 计数，用一次少一次 |
 | **计分规则** | 多次提交时通常 **以最后一次为准**（与资格赛说明一致） |
-| **文件格式** | **CSV**（本 pipeline 生成的即符合赛题格式） |
-| **大小上限** | 单次上传 **不超过 100MB**（本方案每个 CSV 仅数 KB，远低于上限） |
+| **文件格式** | **ZIP**（内含 CSV 预测结果文件） |
+| **大小上限** | 单次上传 **不超过 100MB**（本方案每个 CSV 仅数 KB，ZIP 远低于上限） |
 
 ### 每个震例要交什么
 
@@ -57,13 +56,16 @@
 上传前在服务器执行：
 
 ```bash
-python -m monitor.check_submission              # 列出 CSV、行数、总大小
-python -m monitor.check_submission -z monitor/data/submissions/csv_only.zip   # 可选：仅 CSV 打 zip
+python -m monitor.check_submission              # 检查 CSV 并自动生成提交 ZIP
+python -m monitor.check_submission --event 20260601221236   # 只打包单个事件
+python -m monitor.check_submission --no-zip     # 仅检查，不生成 ZIP
+python -m monitor.package_submission            # 直接打包（默认仅 CSV）
+python -m monitor.package_submission --include-aux  # 含辅助文件（备份用）
 ```
 
 提交页：[天池排名赛提交入口](https://tianchi.aliyun.com/competition/entrance/532460/submission)（`config.yaml` 中 `tianchi_url`）。
 
-> **说明**：资格赛为 ZIP（含技术文档+承诺书）；排名赛实时阶段以 **CSV 预测结果** 为主。本地 `package_submission.sh` 打的 ZIP 便于备份/传输；若页面上传框只接受单个文件，可用 `check_submission -z` 生成 **仅含 CSV** 的 zip（体积仍远小于 100MB）。
+> **说明**：排名赛提交格式为 **ZIP**（内含各事件的 CSV 预测结果文件）。`check_submission` 默认自动生成可直接上传天池的 ZIP 到 `monitor/data/submissions/`。
 
 ---
 
@@ -154,9 +156,8 @@ poll_interval_minutes: 5      # 轮询间隔
 lookback_days: 7              # 检测回溯天数
 notify_max_age_hours: 48      # 超过此时长的新震不再发「新事件」微信
 
-min_magnitude_submit: 6.0     # 赛题提交震级
+min_magnitude_submit: 6.0     # 赛题提交震级（不限深度）
 min_magnitude_watch: 5.8      # 监测通知震级
-competition_max_depth_km: 70  # 赛题深度上限
 
 model_path: solution/models_v3/models.pkl
 ranking_output_dir: monitor/ranking_output

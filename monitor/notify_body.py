@@ -19,7 +19,7 @@ def build_aftershock_section(
     refresh_sequence: bool = True,
 ) -> str:
     if not ev.get("competition_eligible"):
-        return "- **余震对比**: 不满足浅源赛题，未跑模型"
+        return "- **余震对比**: 未达 M6.0 赛题门槛，未跑模型"
 
     if refresh_sequence:
         ensure_sequence(ev, cfg)

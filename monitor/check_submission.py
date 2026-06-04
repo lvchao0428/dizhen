@@ -35,8 +35,8 @@ def check(cfg: dict, event_id: str | None = None, zip_path: str | None = None) -
 
     print("=== 天池排名赛提交检查 ===\n")
     print("平台限制（以天池「提交结果」页为准）：")
-    print("  - 格式：CSV")
-    print("  - 单文件不超过 100MB")
+    print("  - 格式：ZIP（内含 CSV 文件）")
+    print("  - 单次上传不超过 100MB")
     print("  - 剩余提交次数有限（常见为 3 次，以最后一次为准）\n")
 
     if not csv_pairs:
@@ -63,32 +63,42 @@ def check(cfg: dict, event_id: str | None = None, zip_path: str | None = None) -
         return 2
     print("✓ 体积远低于 100MB 上限")
 
-    if zip_path:
-        os.makedirs(os.path.dirname(zip_path) or ".", exist_ok=True)
-        with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
-            for name, full in csv_pairs:
-                zf.write(full, arcname=name)
+    if zip_path is not False:
+        from monitor.package_submission import create_zip
+
+        if zip_path:
+            os.makedirs(os.path.dirname(zip_path) or ".", exist_ok=True)
+        else:
+            zip_path = os.path.join(cfg["data_dir"], "submissions", "check_latest.zip")
+            os.makedirs(os.path.dirname(zip_path), exist_ok=True)
+
+        zip_path = create_zip(cfg, event_id, zip_path, csv_only=True)
         zsize = os.path.getsize(zip_path)
-        print(f"\n已生成仅含 CSV 的 ZIP: {zip_path} ({zsize} B)")
+        print(f"\n已生成提交 ZIP: {zip_path} ({zsize} B)")
         if zsize > MAX_BYTES:
             print("✗ ZIP 超过 100MB")
             return 2
+        print("✓ ZIP 体积远低于 100MB 上限")
 
     print("\n建议：")
     print("  1. 每次上传前在本机确认 T2/T3 已刷新（见 window_comparison.md）")
     print("  2. 仅剩 1～2 次机会时，优先在 T1-T2 / T3 截止并刷新后再提交")
-    print("  3. 天池若只接受「一个」上传框，可上传本脚本生成的 csv-only.zip（仍为 CSV 内容）")
-    print(f"  4. 提交页: {cfg.get('tianchi_url', '')}")
+    if zip_path and zip_path is not False:
+        print(f"  3. 直接上传上述 ZIP 到天池: {cfg.get('tianchi_url', '')}")
+    else:
+        print(f"  3. 用 package_submission 打包后上传天池: {cfg.get('tianchi_url', '')}")
     return 0
 
 
 def main() -> None:
-    p = argparse.ArgumentParser(description="检查排名赛 CSV 是否满足天池提交限制")
+    p = argparse.ArgumentParser(description="检查排名赛 CSV 并生成提交 ZIP")
     p.add_argument("--event", help="只检查单个事件 ID")
-    p.add_argument("-z", "--zip", help="额外打包 csv-only.zip 到指定路径")
+    p.add_argument("-z", "--zip", help="指定输出 ZIP 路径（默认自动生成）")
+    p.add_argument("--no-zip", action="store_true", help="仅检查，不生成 ZIP")
     args = p.parse_args()
     cfg = get_config()
-    raise SystemExit(check(cfg, args.event, args.zip))
+    zip_path = False if args.no_zip else args.zip
+    raise SystemExit(check(cfg, args.event, zip_path))
 
 
 if __name__ == "__main__":

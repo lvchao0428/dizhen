@@ -31,8 +31,6 @@ def get_config() -> Dict[str, Any]:
         "notify_max_age_hours": 48,
         "min_magnitude_submit": 6.0,
         "min_magnitude_watch": 5.8,
-        "max_depth_km": 70,
-        "competition_max_depth_km": 70,
         "usgs_fetch_max_depth_km": 1000,
         "sequence_radius_km": 300,
         "sequence_hours": 168,

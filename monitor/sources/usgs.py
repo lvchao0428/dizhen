@@ -72,7 +72,7 @@ def fetch_events(
     starttime: datetime,
     endtime: Optional[datetime] = None,
     minmagnitude: float = 5.8,
-    maxdepth: float = 70,
+    maxdepth: float = 1000,
     latitude: Optional[float] = None,
     longitude: Optional[float] = None,
     maxradiuskm: Optional[float] = None,
