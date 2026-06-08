@@ -8,7 +8,7 @@
 |------|------|
 | **实时轮询** | 默认每 **5 分钟** 查 USGS，发现新事件后入库并处理 |
 | **微信推送** | M≥5.8 发监测通知；赛题有效事件另发「已出 CSV」及窗内对比 |
-| **自动预测** | M≥6.0：序列 + v3 推理 → `monitor/ranking_output/{id}/` |
+| **自动预测** | M≥6.0：序列 + v3 推理 → `ranking_output/{id}/` |
 | **截止提醒** | 主震后约 20h / 48h / 68h 提醒 T1-T2、T3 准备与紧急提交 |
 | **自动刷新** | 约 23h 刷新 T2 预测，约 71h 刷新 T3（重拉序列 + 重写 CSV） |
 | **每日日报** | 每天 **09:00 北京时间** M6+ 汇总（可含未跑 pipeline 的补跑） |
@@ -44,7 +44,7 @@
 | `{事件ID}-T1-T2.csv` | 2 行（T1、T2） | 主震后 **24h 内** 提交到天池 |
 | `{事件ID}-T3.csv` | 1 行（T3） | 主震后 **72h 内** 提交到天池 |
 
-本地路径：`monitor/ranking_output/{事件ID}/`。监控会在截止前微信提醒，并在约 23h / 71h **自动刷新** CSV。
+本地路径：`ranking_output/{事件ID}/`。监控会在截止前微信提醒，并在约 23h / 71h **自动刷新** CSV。
 
 ### 3 次机会怎么用（建议）
 
@@ -160,7 +160,7 @@ min_magnitude_submit: 6.0     # 赛题提交震级（不限深度）
 min_magnitude_watch: 5.8      # 监测通知震级
 
 model_path: solution/models_v3/models.pkl
-ranking_output_dir: monitor/ranking_output
+ranking_output_dir: ranking_output
 data_dir: monitor/data
 sequences_dir: monitor/data/sequences
 
@@ -190,7 +190,7 @@ digest_timezone: Asia/Shanghai
 每个事件一个目录（**上传天池用 CSV**）：
 
 ```
-monitor/ranking_output/{事件ID}/
+ranking_output/{事件ID}/
 ├── {事件ID}-T1-T2.csv       # T1、T2 两行
 ├── {事件ID}-T3.csv          # T3 一行
 └── window_comparison.md     # 模型 vs USGS（本地参考，不必上传）
@@ -257,7 +257,7 @@ python -m monitor.run_digest --notify --backfill
 
 | 路径 | 说明 |
 |------|------|
-| `monitor/ranking_output/{id}/` | 提交 CSV、`window_comparison.md` |
+| `ranking_output/{id}/` | 提交 CSV、`window_comparison.md` |
 | `monitor/data/sequences/{id}_eq.csv` | USGS 余震序列 |
 | `monitor/data/submissions/` | 打包 ZIP |
 | `monitor/data/events.db` | 事件状态、提醒标记、`output_dir` |

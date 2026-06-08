@@ -23,7 +23,7 @@ fi
 [[ -f monitor/config.yaml ]] || cp monitor/config.example.yaml monitor/config.yaml
 [[ -f monitor/.env ]] || cp monitor/.env.example monitor/.env
 
-mkdir -p monitor/data/sequences monitor/ranking_output monitor/data/logs monitor/data/submissions
+mkdir -p monitor/data/sequences ranking_output monitor/data/logs monitor/data/submissions
 
 python -m monitor.run_once || true
 

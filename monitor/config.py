@@ -35,7 +35,7 @@ def get_config() -> Dict[str, Any]:
         "sequence_radius_km": 300,
         "sequence_hours": 168,
         "model_path": "solution/models_v3/models.pkl",
-        "ranking_output_dir": "monitor/ranking_output",
+        "ranking_output_dir": "ranking_output",
         "data_dir": "monitor/data",
         "sequences_dir": "monitor/data/sequences",
         "tianchi_url": "https://tianchi.aliyun.com/competition/entrance/532460/submission",
