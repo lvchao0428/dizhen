@@ -2905,3 +2905,1100 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-06-08 13:24:10,709 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 13:29:07 CST)" executed successfully
 2026-06-08 13:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 13:34:07 CST)" (scheduled at 2026-06-08 13:29:07.874602+08:00)
 2026-06-08 13:29:09,279 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 13:34:07 CST)" executed successfully
+2026-06-08 13:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 13:39:07 CST)" (scheduled at 2026-06-08 13:34:07.874602+08:00)
+2026-06-08 13:34:12,447 [INFO] monitor.pipeline: 序列 20260607234811: 4 行
+2026-06-08 13:34:14,805 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 13:39:07 CST)" executed successfully
+2026-06-08 13:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 13:44:07 CST)" (scheduled at 2026-06-08 13:39:07.874602+08:00)
+2026-06-08 13:39:12,219 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 13:44:07 CST)" executed successfully
+2026-06-08 13:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 13:49:07 CST)" (scheduled at 2026-06-08 13:44:07.874602+08:00)
+2026-06-08 13:44:08,916 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 13:49:07 CST)" executed successfully
+2026-06-08 13:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 13:54:07 CST)" (scheduled at 2026-06-08 13:49:07.874602+08:00)
+2026-06-08 13:49:09,417 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 13:54:07 CST)" executed successfully
+2026-06-08 13:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 13:59:07 CST)" (scheduled at 2026-06-08 13:54:07.874602+08:00)
+2026-06-08 13:54:08,872 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 13:59:07 CST)" executed successfully
+2026-06-08 13:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:04:07 CST)" (scheduled at 2026-06-08 13:59:07.874602+08:00)
+2026-06-08 13:59:09,258 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:04:07 CST)" executed successfully
+2026-06-08 14:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:09:07 CST)" (scheduled at 2026-06-08 14:04:07.874602+08:00)
+2026-06-08 14:04:08,611 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:09:07 CST)" executed successfully
+2026-06-08 14:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:14:07 CST)" (scheduled at 2026-06-08 14:09:07.874602+08:00)
+2026-06-08 14:09:10,364 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:14:07 CST)" executed successfully
+2026-06-08 14:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:19:07 CST)" (scheduled at 2026-06-08 14:14:07.874602+08:00)
+2026-06-08 14:14:08,975 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:19:07 CST)" executed successfully
+2026-06-08 14:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:24:07 CST)" (scheduled at 2026-06-08 14:19:07.874602+08:00)
+2026-06-08 14:19:08,838 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:24:07 CST)" executed successfully
+2026-06-08 14:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:29:07 CST)" (scheduled at 2026-06-08 14:24:07.874602+08:00)
+2026-06-08 14:24:08,601 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:29:07 CST)" executed successfully
+2026-06-08 14:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:34:07 CST)" (scheduled at 2026-06-08 14:29:07.874602+08:00)
+2026-06-08 14:29:15,413 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:34:07 CST)" executed successfully
+2026-06-08 14:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:39:07 CST)" (scheduled at 2026-06-08 14:34:07.874602+08:00)
+2026-06-08 14:34:08,921 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:39:07 CST)" executed successfully
+2026-06-08 14:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:44:07 CST)" (scheduled at 2026-06-08 14:39:07.874602+08:00)
+2026-06-08 14:39:12,612 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:44:07 CST)" executed successfully
+2026-06-08 14:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:49:07 CST)" (scheduled at 2026-06-08 14:44:07.874602+08:00)
+2026-06-08 14:44:11,273 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:49:07 CST)" executed successfully
+2026-06-08 14:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:54:07 CST)" (scheduled at 2026-06-08 14:49:07.874602+08:00)
+2026-06-08 14:49:08,800 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:54:07 CST)" executed successfully
+2026-06-08 14:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:59:07 CST)" (scheduled at 2026-06-08 14:54:07.874602+08:00)
+2026-06-08 14:54:09,237 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 14:59:07 CST)" executed successfully
+2026-06-08 14:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:04:07 CST)" (scheduled at 2026-06-08 14:59:07.874602+08:00)
+2026-06-08 14:59:09,953 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:04:07 CST)" executed successfully
+2026-06-08 15:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:09:07 CST)" (scheduled at 2026-06-08 15:04:07.874602+08:00)
+2026-06-08 15:04:08,836 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:09:07 CST)" executed successfully
+2026-06-08 15:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:14:07 CST)" (scheduled at 2026-06-08 15:09:07.874602+08:00)
+2026-06-08 15:09:08,831 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:14:07 CST)" executed successfully
+2026-06-08 15:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:19:07 CST)" (scheduled at 2026-06-08 15:14:07.874602+08:00)
+2026-06-08 15:14:11,878 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:19:07 CST)" executed successfully
+2026-06-08 15:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:24:07 CST)" (scheduled at 2026-06-08 15:19:07.874602+08:00)
+2026-06-08 15:20:10,453 [ERROR] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:24:07 CST)" raised an exception
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/ssl_.py", line 433, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/ssl_.py", line 477, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1011: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 498, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/charlie/project/dizhen/monitor/pipeline.py", line 140, in run_pipeline
+    new_events = detect_new_events(cfg)
+  File "/home/charlie/project/dizhen/monitor/detector.py", line 30, in detect_new_events
+    raw = usgs.fetch_events(
+        starttime=start,
+        minmagnitude=min_mag,
+        maxdepth=usgs_maxdepth,
+    )
+  File "/home/charlie/project/dizhen/monitor/sources/usgs.py", line 97, in fetch_events
+    resp = requests.get(USGS_QUERY_URL, params=params, timeout=60)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/adapters.py", line 742, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Read timed out. (read timeout=60)
+2026-06-08 15:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:29:07 CST)" (scheduled at 2026-06-08 15:24:07.874602+08:00)
+2026-06-08 15:24:09,677 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:29:07 CST)" executed successfully
+2026-06-08 15:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:34:07 CST)" (scheduled at 2026-06-08 15:29:07.874602+08:00)
+2026-06-08 15:29:08,702 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:34:07 CST)" executed successfully
+2026-06-08 15:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:39:07 CST)" (scheduled at 2026-06-08 15:34:07.874602+08:00)
+2026-06-08 15:34:11,221 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:39:07 CST)" executed successfully
+2026-06-08 15:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:44:07 CST)" (scheduled at 2026-06-08 15:39:07.874602+08:00)
+2026-06-08 15:39:10,799 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:44:07 CST)" executed successfully
+2026-06-08 15:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:49:07 CST)" (scheduled at 2026-06-08 15:44:07.874602+08:00)
+2026-06-08 15:44:10,012 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:49:07 CST)" executed successfully
+2026-06-08 15:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:54:07 CST)" (scheduled at 2026-06-08 15:49:07.874602+08:00)
+2026-06-08 15:49:09,971 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:54:07 CST)" executed successfully
+2026-06-08 15:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:59:07 CST)" (scheduled at 2026-06-08 15:54:07.874602+08:00)
+2026-06-08 15:54:09,074 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 15:59:07 CST)" executed successfully
+2026-06-08 15:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:04:07 CST)" (scheduled at 2026-06-08 15:59:07.874602+08:00)
+2026-06-08 15:59:14,789 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:04:07 CST)" executed successfully
+2026-06-08 16:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:09:07 CST)" (scheduled at 2026-06-08 16:04:07.874602+08:00)
+2026-06-08 16:04:08,807 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:09:07 CST)" executed successfully
+2026-06-08 16:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:14:07 CST)" (scheduled at 2026-06-08 16:09:07.874602+08:00)
+2026-06-08 16:09:08,750 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:14:07 CST)" executed successfully
+2026-06-08 16:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:19:07 CST)" (scheduled at 2026-06-08 16:14:07.874602+08:00)
+2026-06-08 16:14:08,827 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:19:07 CST)" executed successfully
+2026-06-08 16:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:24:07 CST)" (scheduled at 2026-06-08 16:19:07.874602+08:00)
+2026-06-08 16:19:13,284 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:24:07 CST)" executed successfully
+2026-06-08 16:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:29:07 CST)" (scheduled at 2026-06-08 16:24:07.874602+08:00)
+2026-06-08 16:24:08,883 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:29:07 CST)" executed successfully
+2026-06-08 16:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:34:07 CST)" (scheduled at 2026-06-08 16:29:07.874602+08:00)
+2026-06-08 16:30:08,169 [ERROR] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:34:07 CST)" raised an exception
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/ssl_.py", line 433, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/ssl_.py", line 477, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1011: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 498, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/charlie/project/dizhen/monitor/pipeline.py", line 140, in run_pipeline
+    new_events = detect_new_events(cfg)
+  File "/home/charlie/project/dizhen/monitor/detector.py", line 30, in detect_new_events
+    raw = usgs.fetch_events(
+        starttime=start,
+        minmagnitude=min_mag,
+        maxdepth=usgs_maxdepth,
+    )
+  File "/home/charlie/project/dizhen/monitor/sources/usgs.py", line 97, in fetch_events
+    resp = requests.get(USGS_QUERY_URL, params=params, timeout=60)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/adapters.py", line 742, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Read timed out. (read timeout=60)
+2026-06-08 16:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:39:07 CST)" (scheduled at 2026-06-08 16:34:07.874602+08:00)
+2026-06-08 16:34:09,214 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:39:07 CST)" executed successfully
+2026-06-08 16:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:44:07 CST)" (scheduled at 2026-06-08 16:39:07.874602+08:00)
+2026-06-08 16:39:09,138 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:44:07 CST)" executed successfully
+2026-06-08 16:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:49:07 CST)" (scheduled at 2026-06-08 16:44:07.874602+08:00)
+2026-06-08 16:44:09,010 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:49:07 CST)" executed successfully
+2026-06-08 16:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:54:07 CST)" (scheduled at 2026-06-08 16:49:07.874602+08:00)
+2026-06-08 16:49:10,827 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:54:07 CST)" executed successfully
+2026-06-08 16:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:59:07 CST)" (scheduled at 2026-06-08 16:54:07.874602+08:00)
+2026-06-08 16:54:11,230 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 16:59:07 CST)" executed successfully
+2026-06-08 16:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:04:07 CST)" (scheduled at 2026-06-08 16:59:07.874602+08:00)
+2026-06-08 16:59:09,770 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:04:07 CST)" executed successfully
+2026-06-08 17:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:09:07 CST)" (scheduled at 2026-06-08 17:04:07.874602+08:00)
+2026-06-08 17:04:11,441 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:09:07 CST)" executed successfully
+2026-06-08 17:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:14:07 CST)" (scheduled at 2026-06-08 17:09:07.874602+08:00)
+2026-06-08 17:09:50,228 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:14:07 CST)" executed successfully
+2026-06-08 17:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:19:07 CST)" (scheduled at 2026-06-08 17:14:07.874602+08:00)
+2026-06-08 17:14:08,881 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:19:07 CST)" executed successfully
+2026-06-08 17:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:24:07 CST)" (scheduled at 2026-06-08 17:19:07.874602+08:00)
+2026-06-08 17:19:08,624 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:24:07 CST)" executed successfully
+2026-06-08 17:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:29:07 CST)" (scheduled at 2026-06-08 17:24:07.874602+08:00)
+2026-06-08 17:24:09,129 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:29:07 CST)" executed successfully
+2026-06-08 17:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:34:07 CST)" (scheduled at 2026-06-08 17:29:07.874602+08:00)
+2026-06-08 17:29:09,700 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:34:07 CST)" executed successfully
+2026-06-08 17:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:39:07 CST)" (scheduled at 2026-06-08 17:34:07.874602+08:00)
+2026-06-08 17:34:13,958 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:39:07 CST)" executed successfully
+2026-06-08 17:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:44:07 CST)" (scheduled at 2026-06-08 17:39:07.874602+08:00)
+2026-06-08 17:39:08,865 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:44:07 CST)" executed successfully
+2026-06-08 17:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:49:07 CST)" (scheduled at 2026-06-08 17:44:07.874602+08:00)
+2026-06-08 17:44:09,431 [INFO] monitor.pipeline: 序列 20260607104158: 1 行
+2026-06-08 17:44:10,600 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:49:07 CST)" executed successfully
+2026-06-08 17:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:54:07 CST)" (scheduled at 2026-06-08 17:49:07.874602+08:00)
+2026-06-08 17:49:12,694 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:54:07 CST)" executed successfully
+2026-06-08 17:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:59:07 CST)" (scheduled at 2026-06-08 17:54:07.874602+08:00)
+2026-06-08 17:54:09,808 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 17:59:07 CST)" executed successfully
+2026-06-08 17:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:04:07 CST)" (scheduled at 2026-06-08 17:59:07.874602+08:00)
+2026-06-08 17:59:08,792 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:04:07 CST)" executed successfully
+2026-06-08 18:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:09:07 CST)" (scheduled at 2026-06-08 18:04:07.874602+08:00)
+2026-06-08 18:04:09,616 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:09:07 CST)" executed successfully
+2026-06-08 18:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:14:07 CST)" (scheduled at 2026-06-08 18:09:07.874602+08:00)
+2026-06-08 18:09:09,909 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:14:07 CST)" executed successfully
+2026-06-08 18:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:19:07 CST)" (scheduled at 2026-06-08 18:14:07.874602+08:00)
+2026-06-08 18:14:09,484 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:19:07 CST)" executed successfully
+2026-06-08 18:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:24:07 CST)" (scheduled at 2026-06-08 18:19:07.874602+08:00)
+2026-06-08 18:19:10,393 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:24:07 CST)" executed successfully
+2026-06-08 18:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:29:07 CST)" (scheduled at 2026-06-08 18:24:07.874602+08:00)
+2026-06-08 18:24:08,694 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:29:07 CST)" executed successfully
+2026-06-08 18:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:34:07 CST)" (scheduled at 2026-06-08 18:29:07.874602+08:00)
+2026-06-08 18:29:08,915 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:34:07 CST)" executed successfully
+2026-06-08 18:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:39:07 CST)" (scheduled at 2026-06-08 18:34:07.874602+08:00)
+2026-06-08 18:34:08,945 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:39:07 CST)" executed successfully
+2026-06-08 18:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:44:07 CST)" (scheduled at 2026-06-08 18:39:07.874602+08:00)
+2026-06-08 18:39:09,035 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:44:07 CST)" executed successfully
+2026-06-08 18:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:49:07 CST)" (scheduled at 2026-06-08 18:44:07.874602+08:00)
+2026-06-08 18:44:08,841 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:49:07 CST)" executed successfully
+2026-06-08 18:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:54:07 CST)" (scheduled at 2026-06-08 18:49:07.874602+08:00)
+2026-06-08 18:49:10,320 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:54:07 CST)" executed successfully
+2026-06-08 18:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:59:07 CST)" (scheduled at 2026-06-08 18:54:07.874602+08:00)
+2026-06-08 18:54:09,885 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 18:59:07 CST)" executed successfully
+2026-06-08 18:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:04:07 CST)" (scheduled at 2026-06-08 18:59:07.874602+08:00)
+2026-06-08 18:59:09,148 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:04:07 CST)" executed successfully
+2026-06-08 19:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:09:07 CST)" (scheduled at 2026-06-08 19:04:07.874602+08:00)
+2026-06-08 19:04:09,070 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:09:07 CST)" executed successfully
+2026-06-08 19:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:14:07 CST)" (scheduled at 2026-06-08 19:09:07.874602+08:00)
+2026-06-08 19:09:10,303 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:14:07 CST)" executed successfully
+2026-06-08 19:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:19:07 CST)" (scheduled at 2026-06-08 19:14:07.874602+08:00)
+2026-06-08 19:14:09,166 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:19:07 CST)" executed successfully
+2026-06-08 19:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:24:07 CST)" (scheduled at 2026-06-08 19:19:07.874602+08:00)
+2026-06-08 19:19:09,338 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:24:07 CST)" executed successfully
+2026-06-08 19:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:29:07 CST)" (scheduled at 2026-06-08 19:24:07.874602+08:00)
+2026-06-08 19:24:10,314 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:29:07 CST)" executed successfully
+2026-06-08 19:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:34:07 CST)" (scheduled at 2026-06-08 19:29:07.874602+08:00)
+2026-06-08 19:29:08,589 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:34:07 CST)" executed successfully
+2026-06-08 19:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:39:07 CST)" (scheduled at 2026-06-08 19:34:07.874602+08:00)
+2026-06-08 19:34:08,767 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:39:07 CST)" executed successfully
+2026-06-08 19:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:44:07 CST)" (scheduled at 2026-06-08 19:39:07.874602+08:00)
+2026-06-08 19:39:10,139 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:44:07 CST)" executed successfully
+2026-06-08 19:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:49:07 CST)" (scheduled at 2026-06-08 19:44:07.874602+08:00)
+2026-06-08 19:44:12,098 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:49:07 CST)" executed successfully
+2026-06-08 19:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:54:07 CST)" (scheduled at 2026-06-08 19:49:07.874602+08:00)
+2026-06-08 19:49:20,192 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:54:07 CST)" executed successfully
+2026-06-08 19:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:59:07 CST)" (scheduled at 2026-06-08 19:54:07.874602+08:00)
+2026-06-08 19:54:14,959 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 19:59:07 CST)" executed successfully
+2026-06-08 19:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:04:07 CST)" (scheduled at 2026-06-08 19:59:07.874602+08:00)
+2026-06-08 19:59:08,881 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:04:07 CST)" executed successfully
+2026-06-08 20:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:09:07 CST)" (scheduled at 2026-06-08 20:04:07.874602+08:00)
+2026-06-08 20:04:09,622 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:09:07 CST)" executed successfully
+2026-06-08 20:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:14:07 CST)" (scheduled at 2026-06-08 20:09:07.874602+08:00)
+2026-06-08 20:09:08,857 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:14:07 CST)" executed successfully
+2026-06-08 20:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:19:07 CST)" (scheduled at 2026-06-08 20:14:07.874602+08:00)
+2026-06-08 20:14:09,612 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:19:07 CST)" executed successfully
+2026-06-08 20:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:24:07 CST)" (scheduled at 2026-06-08 20:19:07.874602+08:00)
+2026-06-08 20:19:10,567 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:24:07 CST)" executed successfully
+2026-06-08 20:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:29:07 CST)" (scheduled at 2026-06-08 20:24:07.874602+08:00)
+2026-06-08 20:24:09,133 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:29:07 CST)" executed successfully
+2026-06-08 20:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:34:07 CST)" (scheduled at 2026-06-08 20:29:07.874602+08:00)
+2026-06-08 20:29:10,368 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:34:07 CST)" executed successfully
+2026-06-08 20:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:39:07 CST)" (scheduled at 2026-06-08 20:34:07.874602+08:00)
+2026-06-08 20:34:18,963 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:39:07 CST)" executed successfully
+2026-06-08 20:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:44:07 CST)" (scheduled at 2026-06-08 20:39:07.874602+08:00)
+2026-06-08 20:40:08,191 [ERROR] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:44:07 CST)" raised an exception
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/ssl_.py", line 433, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/ssl_.py", line 477, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1011: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 498, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/charlie/project/dizhen/monitor/pipeline.py", line 140, in run_pipeline
+    new_events = detect_new_events(cfg)
+  File "/home/charlie/project/dizhen/monitor/detector.py", line 30, in detect_new_events
+    raw = usgs.fetch_events(
+        starttime=start,
+        minmagnitude=min_mag,
+        maxdepth=usgs_maxdepth,
+    )
+  File "/home/charlie/project/dizhen/monitor/sources/usgs.py", line 97, in fetch_events
+    resp = requests.get(USGS_QUERY_URL, params=params, timeout=60)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/adapters.py", line 742, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Read timed out. (read timeout=60)
+2026-06-08 20:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:49:07 CST)" (scheduled at 2026-06-08 20:44:07.874602+08:00)
+2026-06-08 20:44:11,627 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:49:07 CST)" executed successfully
+2026-06-08 20:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:54:07 CST)" (scheduled at 2026-06-08 20:49:07.874602+08:00)
+2026-06-08 20:49:09,092 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:54:07 CST)" executed successfully
+2026-06-08 20:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:59:07 CST)" (scheduled at 2026-06-08 20:54:07.874602+08:00)
+2026-06-08 20:54:12,811 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 20:59:07 CST)" executed successfully
+2026-06-08 20:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:04:07 CST)" (scheduled at 2026-06-08 20:59:07.874602+08:00)
+2026-06-08 21:00:10,299 [ERROR] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:04:07 CST)" raised an exception
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/charlie/anaconda3/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/home/charlie/anaconda3/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/home/charlie/anaconda3/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/charlie/anaconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 498, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/charlie/project/dizhen/monitor/pipeline.py", line 140, in run_pipeline
+    new_events = detect_new_events(cfg)
+  File "/home/charlie/project/dizhen/monitor/detector.py", line 30, in detect_new_events
+    raw = usgs.fetch_events(
+        starttime=start,
+        minmagnitude=min_mag,
+        maxdepth=usgs_maxdepth,
+    )
+  File "/home/charlie/project/dizhen/monitor/sources/usgs.py", line 97, in fetch_events
+    resp = requests.get(USGS_QUERY_URL, params=params, timeout=60)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/adapters.py", line 742, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Read timed out. (read timeout=60)
+2026-06-08 21:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:09:07 CST)" (scheduled at 2026-06-08 21:04:07.874602+08:00)
+2026-06-08 21:04:10,549 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:09:07 CST)" executed successfully
+2026-06-08 21:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:14:07 CST)" (scheduled at 2026-06-08 21:09:07.874602+08:00)
+2026-06-08 21:09:10,868 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:14:07 CST)" executed successfully
+2026-06-08 21:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:19:07 CST)" (scheduled at 2026-06-08 21:14:07.874602+08:00)
+2026-06-08 21:14:09,183 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:19:07 CST)" executed successfully
+2026-06-08 21:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:24:07 CST)" (scheduled at 2026-06-08 21:19:07.874602+08:00)
+2026-06-08 21:19:10,417 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:24:07 CST)" executed successfully
+2026-06-08 21:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:29:07 CST)" (scheduled at 2026-06-08 21:24:07.874602+08:00)
+2026-06-08 21:24:10,799 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:29:07 CST)" executed successfully
+2026-06-08 21:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:34:07 CST)" (scheduled at 2026-06-08 21:29:07.874602+08:00)
+2026-06-08 21:29:13,882 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:34:07 CST)" executed successfully
+2026-06-08 21:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:39:07 CST)" (scheduled at 2026-06-08 21:34:07.874602+08:00)
+2026-06-08 21:34:08,797 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:39:07 CST)" executed successfully
+2026-06-08 21:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:44:07 CST)" (scheduled at 2026-06-08 21:39:07.874602+08:00)
+2026-06-08 21:39:09,446 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:44:07 CST)" executed successfully
+2026-06-08 21:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:49:07 CST)" (scheduled at 2026-06-08 21:44:07.874602+08:00)
+2026-06-08 21:44:13,525 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:49:07 CST)" executed successfully
+2026-06-08 21:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:54:07 CST)" (scheduled at 2026-06-08 21:49:07.874602+08:00)
+2026-06-08 21:49:19,613 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:54:07 CST)" executed successfully
+2026-06-08 21:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:59:07 CST)" (scheduled at 2026-06-08 21:54:07.874602+08:00)
+2026-06-08 21:54:09,910 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 21:59:07 CST)" executed successfully
+2026-06-08 21:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:04:07 CST)" (scheduled at 2026-06-08 21:59:07.874602+08:00)
+2026-06-08 21:59:10,769 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:04:07 CST)" executed successfully
+2026-06-08 22:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:09:07 CST)" (scheduled at 2026-06-08 22:04:07.874602+08:00)
+2026-06-08 22:04:13,933 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:09:07 CST)" executed successfully
+2026-06-08 22:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:14:07 CST)" (scheduled at 2026-06-08 22:09:07.874602+08:00)
+2026-06-08 22:09:08,909 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:14:07 CST)" executed successfully
+2026-06-08 22:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:19:07 CST)" (scheduled at 2026-06-08 22:14:07.874602+08:00)
+2026-06-08 22:14:09,072 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:19:07 CST)" executed successfully
+2026-06-08 22:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:24:07 CST)" (scheduled at 2026-06-08 22:19:07.874602+08:00)
+2026-06-08 22:20:13,342 [ERROR] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:24:07 CST)" raised an exception
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/ssl_.py", line 433, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/ssl_.py", line 477, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1011: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 498, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/charlie/project/dizhen/monitor/pipeline.py", line 140, in run_pipeline
+    new_events = detect_new_events(cfg)
+  File "/home/charlie/project/dizhen/monitor/detector.py", line 30, in detect_new_events
+    raw = usgs.fetch_events(
+        starttime=start,
+        minmagnitude=min_mag,
+        maxdepth=usgs_maxdepth,
+    )
+  File "/home/charlie/project/dizhen/monitor/sources/usgs.py", line 97, in fetch_events
+    resp = requests.get(USGS_QUERY_URL, params=params, timeout=60)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/adapters.py", line 742, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Read timed out. (read timeout=60)
+2026-06-08 22:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:29:07 CST)" (scheduled at 2026-06-08 22:24:07.874602+08:00)
+2026-06-08 22:24:09,452 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:29:07 CST)" executed successfully
+2026-06-08 22:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:34:07 CST)" (scheduled at 2026-06-08 22:29:07.874602+08:00)
+2026-06-08 22:29:09,957 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:34:07 CST)" executed successfully
+2026-06-08 22:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:39:07 CST)" (scheduled at 2026-06-08 22:34:07.874602+08:00)
+2026-06-08 22:34:09,261 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:39:07 CST)" executed successfully
+2026-06-08 22:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:44:07 CST)" (scheduled at 2026-06-08 22:39:07.874602+08:00)
+2026-06-08 22:39:09,906 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:44:07 CST)" executed successfully
+2026-06-08 22:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:49:07 CST)" (scheduled at 2026-06-08 22:44:07.874602+08:00)
+2026-06-08 22:44:12,127 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:49:07 CST)" executed successfully
+2026-06-08 22:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:54:07 CST)" (scheduled at 2026-06-08 22:49:07.874602+08:00)
+2026-06-08 22:49:12,935 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:54:07 CST)" executed successfully
+2026-06-08 22:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:59:07 CST)" (scheduled at 2026-06-08 22:54:07.874602+08:00)
+2026-06-08 22:54:09,440 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 22:59:07 CST)" executed successfully
+2026-06-08 22:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:04:07 CST)" (scheduled at 2026-06-08 22:59:07.874602+08:00)
+2026-06-08 22:59:23,713 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:04:07 CST)" executed successfully
+2026-06-08 23:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:09:07 CST)" (scheduled at 2026-06-08 23:04:07.874602+08:00)
+2026-06-08 23:04:17,042 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:09:07 CST)" executed successfully
+2026-06-08 23:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:14:07 CST)" (scheduled at 2026-06-08 23:09:07.874602+08:00)
+2026-06-08 23:09:10,458 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:14:07 CST)" executed successfully
+2026-06-08 23:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:19:07 CST)" (scheduled at 2026-06-08 23:14:07.874602+08:00)
+2026-06-08 23:14:09,868 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:19:07 CST)" executed successfully
+2026-06-08 23:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:24:07 CST)" (scheduled at 2026-06-08 23:19:07.874602+08:00)
+2026-06-08 23:19:15,271 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:24:07 CST)" executed successfully
+2026-06-08 23:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:29:07 CST)" (scheduled at 2026-06-08 23:24:07.874602+08:00)
+2026-06-08 23:24:10,496 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:29:07 CST)" executed successfully
+2026-06-08 23:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:34:07 CST)" (scheduled at 2026-06-08 23:29:07.874602+08:00)
+2026-06-08 23:29:13,080 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:34:07 CST)" executed successfully
+2026-06-08 23:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:39:07 CST)" (scheduled at 2026-06-08 23:34:07.874602+08:00)
+2026-06-08 23:34:10,283 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:39:07 CST)" executed successfully
+2026-06-08 23:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:44:07 CST)" (scheduled at 2026-06-08 23:39:07.874602+08:00)
+2026-06-08 23:39:25,463 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:44:07 CST)" executed successfully
+2026-06-08 23:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:49:07 CST)" (scheduled at 2026-06-08 23:44:07.874602+08:00)
+2026-06-08 23:44:09,300 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:49:07 CST)" executed successfully
+2026-06-08 23:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:54:07 CST)" (scheduled at 2026-06-08 23:49:07.874602+08:00)
+2026-06-08 23:49:17,663 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:54:07 CST)" executed successfully
+2026-06-08 23:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:59:07 CST)" (scheduled at 2026-06-08 23:54:07.874602+08:00)
+2026-06-08 23:54:08,645 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-08 23:59:07 CST)" executed successfully
+2026-06-08 23:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:04:07 CST)" (scheduled at 2026-06-08 23:59:07.874602+08:00)
+2026-06-08 23:59:10,753 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:04:07 CST)" executed successfully
+2026-06-09 00:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:09:07 CST)" (scheduled at 2026-06-09 00:04:07.874602+08:00)
+2026-06-09 00:04:08,723 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:09:07 CST)" executed successfully
+2026-06-09 00:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:14:07 CST)" (scheduled at 2026-06-09 00:09:07.874602+08:00)
+2026-06-09 00:09:14,054 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:14:07 CST)" executed successfully
+2026-06-09 00:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:19:07 CST)" (scheduled at 2026-06-09 00:14:07.874602+08:00)
+2026-06-09 00:14:13,021 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:19:07 CST)" executed successfully
+2026-06-09 00:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:24:07 CST)" (scheduled at 2026-06-09 00:19:07.874602+08:00)
+2026-06-09 00:19:53,162 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:24:07 CST)" executed successfully
+2026-06-09 00:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:29:07 CST)" (scheduled at 2026-06-09 00:24:07.874602+08:00)
+2026-06-09 00:24:10,056 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:29:07 CST)" executed successfully
+2026-06-09 00:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:34:07 CST)" (scheduled at 2026-06-09 00:29:07.874602+08:00)
+2026-06-09 00:29:09,127 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:34:07 CST)" executed successfully
+2026-06-09 00:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:39:07 CST)" (scheduled at 2026-06-09 00:34:07.874602+08:00)
+2026-06-09 00:34:17,252 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:39:07 CST)" executed successfully
+2026-06-09 00:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:44:07 CST)" (scheduled at 2026-06-09 00:39:07.874602+08:00)
+2026-06-09 00:39:13,537 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:44:07 CST)" executed successfully
+2026-06-09 00:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:49:07 CST)" (scheduled at 2026-06-09 00:44:07.874602+08:00)
+2026-06-09 00:44:11,783 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:49:07 CST)" executed successfully
+2026-06-09 00:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:54:07 CST)" (scheduled at 2026-06-09 00:49:07.874602+08:00)
+2026-06-09 00:49:09,257 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:54:07 CST)" executed successfully
+2026-06-09 00:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:59:07 CST)" (scheduled at 2026-06-09 00:54:07.874602+08:00)
+2026-06-09 00:54:08,755 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 00:59:07 CST)" executed successfully
+2026-06-09 00:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:04:07 CST)" (scheduled at 2026-06-09 00:59:07.874602+08:00)
+2026-06-09 00:59:14,277 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:04:07 CST)" executed successfully
+2026-06-09 01:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:09:07 CST)" (scheduled at 2026-06-09 01:04:07.874602+08:00)
+2026-06-09 01:04:10,514 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:09:07 CST)" executed successfully
+2026-06-09 01:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:14:07 CST)" (scheduled at 2026-06-09 01:09:07.874602+08:00)
+2026-06-09 01:10:10,112 [ERROR] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:14:07 CST)" raised an exception
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/ssl_.py", line 433, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/ssl_.py", line 477, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/home/charlie/anaconda3/lib/python3.13/ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: _ssl.c:1011: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 498, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/charlie/project/dizhen/monitor/pipeline.py", line 140, in run_pipeline
+    new_events = detect_new_events(cfg)
+  File "/home/charlie/project/dizhen/monitor/detector.py", line 30, in detect_new_events
+    raw = usgs.fetch_events(
+        starttime=start,
+        minmagnitude=min_mag,
+        maxdepth=usgs_maxdepth,
+    )
+  File "/home/charlie/project/dizhen/monitor/sources/usgs.py", line 97, in fetch_events
+    resp = requests.get(USGS_QUERY_URL, params=params, timeout=60)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/charlie/project/dizhen/.venv/lib/python3.13/site-packages/requests/adapters.py", line 742, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Read timed out. (read timeout=60)
+2026-06-09 01:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:19:07 CST)" (scheduled at 2026-06-09 01:14:07.874602+08:00)
+2026-06-09 01:14:11,860 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:19:07 CST)" executed successfully
+2026-06-09 01:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:24:07 CST)" (scheduled at 2026-06-09 01:19:07.874602+08:00)
+2026-06-09 01:19:08,574 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:24:07 CST)" executed successfully
+2026-06-09 01:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:29:07 CST)" (scheduled at 2026-06-09 01:24:07.874602+08:00)
+2026-06-09 01:24:08,750 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:29:07 CST)" executed successfully
+2026-06-09 01:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:34:07 CST)" (scheduled at 2026-06-09 01:29:07.874602+08:00)
+2026-06-09 01:29:08,888 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:34:07 CST)" executed successfully
+2026-06-09 01:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:39:07 CST)" (scheduled at 2026-06-09 01:34:07.874602+08:00)
+2026-06-09 01:34:08,830 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:39:07 CST)" executed successfully
+2026-06-09 01:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:44:07 CST)" (scheduled at 2026-06-09 01:39:07.874602+08:00)
+2026-06-09 01:39:08,625 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:44:07 CST)" executed successfully
+2026-06-09 01:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:49:07 CST)" (scheduled at 2026-06-09 01:44:07.874602+08:00)
+2026-06-09 01:44:08,816 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:49:07 CST)" executed successfully
+2026-06-09 01:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:54:07 CST)" (scheduled at 2026-06-09 01:49:07.874602+08:00)
+2026-06-09 01:49:08,812 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:54:07 CST)" executed successfully
+2026-06-09 01:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:59:07 CST)" (scheduled at 2026-06-09 01:54:07.874602+08:00)
+2026-06-09 01:54:08,999 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 01:59:07 CST)" executed successfully
+2026-06-09 01:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:04:07 CST)" (scheduled at 2026-06-09 01:59:07.874602+08:00)
+2026-06-09 01:59:09,217 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:04:07 CST)" executed successfully
+2026-06-09 02:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:09:07 CST)" (scheduled at 2026-06-09 02:04:07.874602+08:00)
+2026-06-09 02:04:10,376 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:09:07 CST)" executed successfully
+2026-06-09 02:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:14:07 CST)" (scheduled at 2026-06-09 02:09:07.874602+08:00)
+2026-06-09 02:09:10,013 [INFO] monitor.pipeline: 序列 20260608180027: 1 行
+2026-06-09 02:09:12,685 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:14:07 CST)" executed successfully
+2026-06-09 02:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:19:07 CST)" (scheduled at 2026-06-09 02:14:07.874602+08:00)
+2026-06-09 02:14:12,667 [INFO] monitor.pipeline: 序列 20260608180025: 1 行
+2026-06-09 02:14:15,621 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:19:07 CST)" executed successfully
+2026-06-09 02:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:24:07 CST)" (scheduled at 2026-06-09 02:19:07.874602+08:00)
+2026-06-09 02:19:08,799 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:24:07 CST)" executed successfully
+2026-06-09 02:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:29:07 CST)" (scheduled at 2026-06-09 02:24:07.874602+08:00)
+2026-06-09 02:24:10,131 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:29:07 CST)" executed successfully
+2026-06-09 02:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:34:07 CST)" (scheduled at 2026-06-09 02:29:07.874602+08:00)
+2026-06-09 02:29:12,304 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:34:07 CST)" executed successfully
+2026-06-09 02:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:39:07 CST)" (scheduled at 2026-06-09 02:34:07.874602+08:00)
+2026-06-09 02:34:08,821 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:39:07 CST)" executed successfully
+2026-06-09 02:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:44:07 CST)" (scheduled at 2026-06-09 02:39:07.874602+08:00)
+2026-06-09 02:39:10,131 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:44:07 CST)" executed successfully
+2026-06-09 02:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:49:07 CST)" (scheduled at 2026-06-09 02:44:07.874602+08:00)
+2026-06-09 02:44:09,039 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:49:07 CST)" executed successfully
+2026-06-09 02:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:54:07 CST)" (scheduled at 2026-06-09 02:49:07.874602+08:00)
+2026-06-09 02:49:09,125 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:54:07 CST)" executed successfully
+2026-06-09 02:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:59:07 CST)" (scheduled at 2026-06-09 02:54:07.874602+08:00)
+2026-06-09 02:54:08,881 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 02:59:07 CST)" executed successfully
+2026-06-09 02:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:04:07 CST)" (scheduled at 2026-06-09 02:59:07.874602+08:00)
+2026-06-09 02:59:08,537 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:04:07 CST)" executed successfully
+2026-06-09 03:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:09:07 CST)" (scheduled at 2026-06-09 03:04:07.874602+08:00)
+2026-06-09 03:04:08,843 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:09:07 CST)" executed successfully
+2026-06-09 03:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:14:07 CST)" (scheduled at 2026-06-09 03:09:07.874602+08:00)
+2026-06-09 03:09:08,759 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:14:07 CST)" executed successfully
+2026-06-09 03:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:19:07 CST)" (scheduled at 2026-06-09 03:14:07.874602+08:00)
+2026-06-09 03:14:08,780 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:19:07 CST)" executed successfully
+2026-06-09 03:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:24:07 CST)" (scheduled at 2026-06-09 03:19:07.874602+08:00)
+2026-06-09 03:19:08,810 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:24:07 CST)" executed successfully
+2026-06-09 03:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:29:07 CST)" (scheduled at 2026-06-09 03:24:07.874602+08:00)
+2026-06-09 03:24:08,567 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:29:07 CST)" executed successfully
+2026-06-09 03:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:34:07 CST)" (scheduled at 2026-06-09 03:29:07.874602+08:00)
+2026-06-09 03:29:10,578 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:34:07 CST)" executed successfully
+2026-06-09 03:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:39:07 CST)" (scheduled at 2026-06-09 03:34:07.874602+08:00)
+2026-06-09 03:34:09,486 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:39:07 CST)" executed successfully
+2026-06-09 03:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:44:07 CST)" (scheduled at 2026-06-09 03:39:07.874602+08:00)
+2026-06-09 03:39:11,730 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:44:07 CST)" executed successfully
+2026-06-09 03:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:49:07 CST)" (scheduled at 2026-06-09 03:44:07.874602+08:00)
+2026-06-09 03:44:08,838 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:49:07 CST)" executed successfully
+2026-06-09 03:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:54:07 CST)" (scheduled at 2026-06-09 03:49:07.874602+08:00)
+2026-06-09 03:49:14,080 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:54:07 CST)" executed successfully
+2026-06-09 03:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:59:07 CST)" (scheduled at 2026-06-09 03:54:07.874602+08:00)
+2026-06-09 03:54:10,493 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 03:59:07 CST)" executed successfully
+2026-06-09 03:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:04:07 CST)" (scheduled at 2026-06-09 03:59:07.874602+08:00)
+2026-06-09 03:59:08,790 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:04:07 CST)" executed successfully
+2026-06-09 04:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:09:07 CST)" (scheduled at 2026-06-09 04:04:07.874602+08:00)
+2026-06-09 04:04:08,857 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:09:07 CST)" executed successfully
+2026-06-09 04:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:14:07 CST)" (scheduled at 2026-06-09 04:09:07.874602+08:00)
+2026-06-09 04:09:09,214 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:14:07 CST)" executed successfully
+2026-06-09 04:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:19:07 CST)" (scheduled at 2026-06-09 04:14:07.874602+08:00)
+2026-06-09 04:14:08,846 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:19:07 CST)" executed successfully
+2026-06-09 04:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:24:07 CST)" (scheduled at 2026-06-09 04:19:07.874602+08:00)
+2026-06-09 04:19:08,831 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:24:07 CST)" executed successfully
+2026-06-09 04:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:29:07 CST)" (scheduled at 2026-06-09 04:24:07.874602+08:00)
+2026-06-09 04:24:09,044 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:29:07 CST)" executed successfully
+2026-06-09 04:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:34:07 CST)" (scheduled at 2026-06-09 04:29:07.874602+08:00)
+2026-06-09 04:29:08,732 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:34:07 CST)" executed successfully
+2026-06-09 04:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:39:07 CST)" (scheduled at 2026-06-09 04:34:07.874602+08:00)
+2026-06-09 04:34:08,984 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:39:07 CST)" executed successfully
+2026-06-09 04:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:44:07 CST)" (scheduled at 2026-06-09 04:39:07.874602+08:00)
+2026-06-09 04:39:08,891 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:44:07 CST)" executed successfully
+2026-06-09 04:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:49:07 CST)" (scheduled at 2026-06-09 04:44:07.874602+08:00)
+2026-06-09 04:44:10,374 [INFO] monitor.pipeline: 序列 20260607234914: 3 行
+2026-06-09 04:44:14,735 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:49:07 CST)" executed successfully
+2026-06-09 04:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:54:07 CST)" (scheduled at 2026-06-09 04:49:07.874602+08:00)
+2026-06-09 04:49:08,867 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:54:07 CST)" executed successfully
+2026-06-09 04:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:59:07 CST)" (scheduled at 2026-06-09 04:54:07.874602+08:00)
+2026-06-09 04:54:09,864 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 04:59:07 CST)" executed successfully
+2026-06-09 04:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:04:07 CST)" (scheduled at 2026-06-09 04:59:07.874602+08:00)
+2026-06-09 04:59:09,967 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:04:07 CST)" executed successfully
+2026-06-09 05:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:09:07 CST)" (scheduled at 2026-06-09 05:04:07.874602+08:00)
+2026-06-09 05:04:09,723 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:09:07 CST)" executed successfully
+2026-06-09 05:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:14:07 CST)" (scheduled at 2026-06-09 05:09:07.874602+08:00)
+2026-06-09 05:09:09,269 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:14:07 CST)" executed successfully
+2026-06-09 05:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:19:07 CST)" (scheduled at 2026-06-09 05:14:07.874602+08:00)
+2026-06-09 05:14:08,624 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:19:07 CST)" executed successfully
+2026-06-09 05:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:24:07 CST)" (scheduled at 2026-06-09 05:19:07.874602+08:00)
+2026-06-09 05:19:09,344 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:24:07 CST)" executed successfully
+2026-06-09 05:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:29:07 CST)" (scheduled at 2026-06-09 05:24:07.874602+08:00)
+2026-06-09 05:24:08,686 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:29:07 CST)" executed successfully
+2026-06-09 05:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:34:07 CST)" (scheduled at 2026-06-09 05:29:07.874602+08:00)
+2026-06-09 05:29:08,517 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:34:07 CST)" executed successfully
+2026-06-09 05:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:39:07 CST)" (scheduled at 2026-06-09 05:34:07.874602+08:00)
+2026-06-09 05:34:08,861 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:39:07 CST)" executed successfully
+2026-06-09 05:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:44:07 CST)" (scheduled at 2026-06-09 05:39:07.874602+08:00)
+2026-06-09 05:39:08,906 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:44:07 CST)" executed successfully
+2026-06-09 05:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:49:07 CST)" (scheduled at 2026-06-09 05:44:07.874602+08:00)
+2026-06-09 05:44:10,509 [INFO] monitor.pipeline: 序列 20260608005511: 2 行
+2026-06-09 05:44:14,340 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:49:07 CST)" executed successfully
+2026-06-09 05:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:54:07 CST)" (scheduled at 2026-06-09 05:49:07.874602+08:00)
+2026-06-09 05:49:08,615 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:54:07 CST)" executed successfully
+2026-06-09 05:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:59:07 CST)" (scheduled at 2026-06-09 05:54:07.874602+08:00)
+2026-06-09 05:54:09,602 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 05:59:07 CST)" executed successfully
+2026-06-09 05:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:04:07 CST)" (scheduled at 2026-06-09 05:59:07.874602+08:00)
+2026-06-09 05:59:09,001 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:04:07 CST)" executed successfully
+2026-06-09 06:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:09:07 CST)" (scheduled at 2026-06-09 06:04:07.874602+08:00)
+2026-06-09 06:04:10,216 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:09:07 CST)" executed successfully
+2026-06-09 06:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:14:07 CST)" (scheduled at 2026-06-09 06:09:07.874602+08:00)
+2026-06-09 06:09:08,892 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:14:07 CST)" executed successfully
+2026-06-09 06:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:19:07 CST)" (scheduled at 2026-06-09 06:14:07.874602+08:00)
+2026-06-09 06:14:08,802 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:19:07 CST)" executed successfully
+2026-06-09 06:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:24:07 CST)" (scheduled at 2026-06-09 06:19:07.874602+08:00)
+2026-06-09 06:19:08,513 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:24:07 CST)" executed successfully
+2026-06-09 06:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:29:07 CST)" (scheduled at 2026-06-09 06:24:07.874602+08:00)
+2026-06-09 06:24:08,821 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:29:07 CST)" executed successfully
+2026-06-09 06:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:34:07 CST)" (scheduled at 2026-06-09 06:29:07.874602+08:00)
+2026-06-09 06:29:08,947 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:34:07 CST)" executed successfully
+2026-06-09 06:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:39:07 CST)" (scheduled at 2026-06-09 06:34:07.874602+08:00)
+2026-06-09 06:34:08,851 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:39:07 CST)" executed successfully
+2026-06-09 06:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:44:07 CST)" (scheduled at 2026-06-09 06:39:07.874602+08:00)
+2026-06-09 06:39:09,820 [INFO] monitor.pipeline: 序列 20260607233741: 5 行
+2026-06-09 06:39:11,847 [INFO] monitor.pipeline: 序列 20260607233740: 6 行
+2026-06-09 06:39:13,074 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:44:07 CST)" executed successfully
+2026-06-09 06:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:49:07 CST)" (scheduled at 2026-06-09 06:44:07.874602+08:00)
+2026-06-09 06:44:09,067 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:49:07 CST)" executed successfully
+2026-06-09 06:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:54:07 CST)" (scheduled at 2026-06-09 06:49:07.874602+08:00)
+2026-06-09 06:49:09,794 [INFO] monitor.pipeline: 序列 20260607234811: 4 行
+2026-06-09 06:49:12,179 [INFO] monitor.pipeline: 序列 20260607234809: 5 行
+2026-06-09 06:49:13,370 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:54:07 CST)" executed successfully
+2026-06-09 06:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:59:07 CST)" (scheduled at 2026-06-09 06:54:07.874602+08:00)
+2026-06-09 06:54:10,707 [INFO] monitor.pipeline: 序列 20260607234914: 3 行
+2026-06-09 06:54:15,474 [INFO] monitor.pipeline: 序列 20260607234913: 4 行
+2026-06-09 06:54:16,681 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 06:59:07 CST)" executed successfully
+2026-06-09 06:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:04:07 CST)" (scheduled at 2026-06-09 06:59:07.874602+08:00)
+2026-06-09 06:59:08,628 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:04:07 CST)" executed successfully
+2026-06-09 07:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:09:07 CST)" (scheduled at 2026-06-09 07:04:07.874602+08:00)
+2026-06-09 07:04:08,824 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:09:07 CST)" executed successfully
+2026-06-09 07:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:14:07 CST)" (scheduled at 2026-06-09 07:09:07.874602+08:00)
+2026-06-09 07:09:08,533 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:14:07 CST)" executed successfully
+2026-06-09 07:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:19:07 CST)" (scheduled at 2026-06-09 07:14:07.874602+08:00)
+2026-06-09 07:14:09,104 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:19:07 CST)" executed successfully
+2026-06-09 07:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:24:07 CST)" (scheduled at 2026-06-09 07:19:07.874602+08:00)
+2026-06-09 07:19:08,950 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:24:07 CST)" executed successfully
+2026-06-09 07:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:29:07 CST)" (scheduled at 2026-06-09 07:24:07.874602+08:00)
+2026-06-09 07:24:08,876 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:29:07 CST)" executed successfully
+2026-06-09 07:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:34:07 CST)" (scheduled at 2026-06-09 07:29:07.874602+08:00)
+2026-06-09 07:29:08,647 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:34:07 CST)" executed successfully
+2026-06-09 07:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:39:07 CST)" (scheduled at 2026-06-09 07:34:07.874602+08:00)
+2026-06-09 07:34:13,768 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:39:07 CST)" executed successfully
+2026-06-09 07:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:44:07 CST)" (scheduled at 2026-06-09 07:39:07.874602+08:00)
+2026-06-09 07:39:08,869 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:44:07 CST)" executed successfully
+2026-06-09 07:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:49:07 CST)" (scheduled at 2026-06-09 07:44:07.874602+08:00)
+2026-06-09 07:44:08,641 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:49:07 CST)" executed successfully
+2026-06-09 07:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:54:07 CST)" (scheduled at 2026-06-09 07:49:07.874602+08:00)
+2026-06-09 07:49:09,121 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:54:07 CST)" executed successfully
+2026-06-09 07:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:59:07 CST)" (scheduled at 2026-06-09 07:54:07.874602+08:00)
+2026-06-09 07:54:09,016 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 07:59:07 CST)" executed successfully
+2026-06-09 07:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:04:07 CST)" (scheduled at 2026-06-09 07:59:07.874602+08:00)
+2026-06-09 07:59:11,416 [INFO] monitor.pipeline: 序列 20260608005512: 2 行
+2026-06-09 07:59:15,020 [INFO] monitor.pipeline: 序列 20260608005511: 2 行
+2026-06-09 07:59:16,129 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:04:07 CST)" executed successfully
+2026-06-09 08:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:09:07 CST)" (scheduled at 2026-06-09 08:04:07.874602+08:00)
+2026-06-09 08:04:09,808 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:09:07 CST)" executed successfully
+2026-06-09 08:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:14:07 CST)" (scheduled at 2026-06-09 08:09:07.874602+08:00)
+2026-06-09 08:09:09,062 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:14:07 CST)" executed successfully
+2026-06-09 08:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:19:07 CST)" (scheduled at 2026-06-09 08:14:07.874602+08:00)
+2026-06-09 08:14:09,802 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:19:07 CST)" executed successfully
+2026-06-09 08:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:24:07 CST)" (scheduled at 2026-06-09 08:19:07.874602+08:00)
+2026-06-09 08:19:09,826 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:24:07 CST)" executed successfully
+2026-06-09 08:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:29:07 CST)" (scheduled at 2026-06-09 08:24:07.874602+08:00)
+2026-06-09 08:24:09,489 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:29:07 CST)" executed successfully
+2026-06-09 08:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:34:07 CST)" (scheduled at 2026-06-09 08:29:07.874602+08:00)
+2026-06-09 08:29:11,140 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:34:07 CST)" executed successfully
+2026-06-09 08:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:39:07 CST)" (scheduled at 2026-06-09 08:34:07.874602+08:00)
+2026-06-09 08:34:08,599 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:39:07 CST)" executed successfully
+2026-06-09 08:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:44:07 CST)" (scheduled at 2026-06-09 08:39:07.874602+08:00)
+2026-06-09 08:39:08,707 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:44:07 CST)" executed successfully
+2026-06-09 08:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:49:07 CST)" (scheduled at 2026-06-09 08:44:07.874602+08:00)
+2026-06-09 08:44:09,301 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:49:07 CST)" executed successfully
+2026-06-09 08:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:54:07 CST)" (scheduled at 2026-06-09 08:49:07.874602+08:00)
+2026-06-09 08:49:08,771 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:54:07 CST)" executed successfully
+2026-06-09 08:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:59:07 CST)" (scheduled at 2026-06-09 08:54:07.874602+08:00)
+2026-06-09 08:54:15,611 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 08:59:07 CST)" executed successfully
+2026-06-09 08:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:04:07 CST)" (scheduled at 2026-06-09 08:59:07.874602+08:00)
+2026-06-09 08:59:11,304 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:04:07 CST)" executed successfully
+2026-06-09 09:00:00,000 [INFO] apscheduler.executors.default: Running job "main.<locals>.<lambda> (trigger: cron[hour='9', minute='0'], next run at: 2026-06-10 09:00:00 CST)" (scheduled at 2026-06-09 09:00:00+08:00)
+2026-06-09 09:00:26,458 [INFO] apscheduler.executors.default: Job "main.<locals>.<lambda> (trigger: cron[hour='9', minute='0'], next run at: 2026-06-10 09:00:00 CST)" executed successfully
+2026-06-09 09:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:09:07 CST)" (scheduled at 2026-06-09 09:04:07.874602+08:00)
+2026-06-09 09:04:08,652 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:09:07 CST)" executed successfully
+2026-06-09 09:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:14:07 CST)" (scheduled at 2026-06-09 09:09:07.874602+08:00)
+2026-06-09 09:09:11,010 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:14:07 CST)" executed successfully
+2026-06-09 09:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:19:07 CST)" (scheduled at 2026-06-09 09:14:07.874602+08:00)
+2026-06-09 09:14:09,197 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:19:07 CST)" executed successfully
+2026-06-09 09:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:24:07 CST)" (scheduled at 2026-06-09 09:19:07.874602+08:00)
+2026-06-09 09:19:11,277 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:24:07 CST)" executed successfully
