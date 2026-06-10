@@ -6,7 +6,7 @@ import os
 from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, List, Optional, Tuple
 
-from monitor.competition import eligibility_reason, is_competition_eligible
+from monitor.competition import eligibility_reason, is_competition_eligible, should_predict
 from monitor.config import get_config
 from monitor.notifier import notify, pd_timestamp_bj
 from monitor.pipeline import run_competition_pipeline, setup_logging
@@ -48,7 +48,7 @@ def format_event_block(ev: Dict[str, Any], cfg: Dict[str, Any], index: int) -> s
         f"- **时间**: {bj} / {utc_str}",
         f"- **深度**: {ev['depth']:.0f} km | **赛题**: {eligibility_reason(ev, cfg)}",
     ]
-    if eligible:
+    if should_predict(ev, cfg):
         n = ensure_sequence(ev, cfg)
         comp = build_window_comparison(ev, cfg)
         lines.append(f"- **序列**: {n} 行（余震 {max(0, n-1)} 条）")
@@ -67,7 +67,7 @@ def build_digest_report(cfg: Dict[str, Any], days: Optional[int] = None, backfil
     backfilled = []
     if backfill:
         for ev in events:
-            if not ev.get("competition_eligible"):
+            if not should_predict(ev, cfg):
                 continue
             t12 = os.path.join(cfg["ranking_output_dir"], ev["event_id"], f"{ev['event_id']}-T1-T2.csv")
             if not os.path.isfile(t12):

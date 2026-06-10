@@ -4,12 +4,13 @@ notify_max_age_hours: 48
 
 min_magnitude_submit: 6.0
 min_magnitude_watch: 5.8
+max_depth_submit_km: 70
 usgs_fetch_max_depth_km: 1000
 
 sequence_radius_km: 300
 sequence_hours: 168
 
-model_path: solution/models_v3/models.pkl
+model_path: solution/models_v4/models.pkl
 ranking_output_dir: ranking_output
 data_dir: monitor/data
 sequences_dir: monitor/data/sequences

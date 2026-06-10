@@ -1,4 +1,4 @@
-"""排名赛实时预测：加载 v3 模型并写出提交 CSV。"""
+"""排名赛实时预测：加载模型并写出提交 CSV（v4 stacking / v3 兼容）。"""
 
 from __future__ import annotations
 
@@ -14,13 +14,22 @@ SOLUTION_DIR = REPO_ROOT / "solution"
 if str(SOLUTION_DIR) not in sys.path:
     sys.path.insert(0, str(SOLUTION_DIR))
 
-from inference_v3 import (  # noqa: E402
-    catalog_row_from_dict,
-    load_models,
-    predict_event,
-    predictions_summary,
-    write_event_submission,
-)
+try:
+    from inference_v4 import (  # noqa: E402
+        catalog_row_from_dict,
+        load_models,
+        predict_event,
+        predictions_summary,
+        write_event_submission,
+    )
+except ImportError:
+    from inference_v3 import (  # noqa: E402
+        catalog_row_from_dict,
+        load_models,
+        predict_event,
+        predictions_summary,
+        write_event_submission,
+    )
 from monitor.time_utils import sequence_datetimes_utc, to_utc_timestamp  # noqa: E402
 
 
@@ -46,13 +55,13 @@ def run_prediction(
     model_path = cfg["model_path"]
     if not os.path.isfile(model_path):
         raise FileNotFoundError(
-            f"模型文件不存在: {model_path}\n请先在 solution 目录运行: python predict_v3.py"
+            f"模型文件不存在: {model_path}\n请先在 solution 目录运行: python predict_v4.py"
         )
 
     if models_bundle is None:
-        models, w_ml = load_models(model_path)
+        bundle, w_ml = load_models(model_path)
     else:
-        models, w_ml = models_bundle
+        bundle, w_ml = models_bundle
 
     ms_utc = to_utc_timestamp(ev["mainshock_utc"])
 
@@ -68,7 +77,7 @@ def run_prediction(
     )
 
     seq_df = load_sequence_csv(ev["event_id"], cfg["sequences_dir"])
-    predictions = predict_event(catalog_row, seq_df, models, w_ml)
+    predictions = predict_event(catalog_row, seq_df, bundle, w_ml)
 
     out_dir = os.path.join(cfg["ranking_output_dir"], ev["event_id"])
     path_t12, path_t3 = write_event_submission(catalog_row, predictions, out_dir)

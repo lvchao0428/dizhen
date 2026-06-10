@@ -5,7 +5,7 @@ from __future__ import annotations
 import os
 from typing import Any, Dict, Optional
 
-from monitor.competition import eligibility_reason
+from monitor.competition import eligibility_reason, should_predict
 from monitor.model_info import format_model_status_line, get_model_status
 from monitor.notifier import pd_timestamp_bj
 from monitor.sequences import ensure_sequence
@@ -18,7 +18,7 @@ def build_aftershock_section(
     pred_result: Optional[Dict[str, Any]] = None,
     refresh_sequence: bool = True,
 ) -> str:
-    if not ev.get("competition_eligible"):
+    if not should_predict(ev, {}):
         return "- **余震对比**: 未达 M6.0 赛题门槛，未跑模型"
 
     if refresh_sequence:
@@ -37,6 +37,7 @@ def format_new_event_message(
     utc_str = ms.strftime("%Y-%m-%d %H:%M:%S UTC") if hasattr(ms, "strftime") else str(ms)
 
     eligible = ev.get("competition_eligible", False)
+    predict = should_predict(ev, cfg)
     lines = [
         "## 新震",
         format_model_status_line(cfg),
@@ -47,7 +48,7 @@ def format_new_event_message(
         f"- **深度**: {ev.get('depth', 0):.1f} km",
         f"- **时间**: {bj} / {utc_str}",
     ]
-    if eligible:
+    if predict:
         lines.extend(["- **T1-T2 截止**: 主震后 24h", "- **T3 截止**: 主震后 72h"])
 
     lines.append("")
@@ -55,7 +56,7 @@ def format_new_event_message(
 
     if pred_result:
         lines.extend(["", "### 提交文件", pred_result.get("summary", ""), f"`{pred_result.get('output_dir', '')}`"])
-    elif eligible and not get_model_status(cfg)["ready"]:
+    elif predict and not get_model_status(cfg)["ready"]:
         lines.append("", "- **提交 CSV**: 待训练模型后 `--backfill`")
 
     lines.append(f"\n**天池**: {cfg.get('tianchi_url', '')}")

@@ -34,7 +34,7 @@ def get_config() -> Dict[str, Any]:
         "usgs_fetch_max_depth_km": 1000,
         "sequence_radius_km": 300,
         "sequence_hours": 168,
-        "model_path": "solution/models_v3/models.pkl",
+        "model_path": "solution/models_v4/models.pkl",
         "ranking_output_dir": "ranking_output",
         "data_dir": "monitor/data",
         "sequences_dir": "monitor/data/sequences",

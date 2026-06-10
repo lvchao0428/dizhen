@@ -4002,3 +4002,642 @@ requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='earthquake.usgs.gov',
 2026-06-09 09:14:09,197 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:19:07 CST)" executed successfully
 2026-06-09 09:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:24:07 CST)" (scheduled at 2026-06-09 09:19:07.874602+08:00)
 2026-06-09 09:19:11,277 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:24:07 CST)" executed successfully
+2026-06-09 09:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:29:07 CST)" (scheduled at 2026-06-09 09:24:07.874602+08:00)
+2026-06-09 09:24:11,467 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:29:07 CST)" executed successfully
+2026-06-09 09:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:34:07 CST)" (scheduled at 2026-06-09 09:29:07.874602+08:00)
+2026-06-09 09:29:08,810 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:34:07 CST)" executed successfully
+2026-06-09 09:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:39:07 CST)" (scheduled at 2026-06-09 09:34:07.874602+08:00)
+2026-06-09 09:34:08,761 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:39:07 CST)" executed successfully
+2026-06-09 09:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:44:07 CST)" (scheduled at 2026-06-09 09:39:07.874602+08:00)
+2026-06-09 09:39:09,039 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:44:07 CST)" executed successfully
+2026-06-09 09:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:49:07 CST)" (scheduled at 2026-06-09 09:44:07.874602+08:00)
+2026-06-09 09:44:10,056 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:49:07 CST)" executed successfully
+2026-06-09 09:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:54:07 CST)" (scheduled at 2026-06-09 09:49:07.874602+08:00)
+2026-06-09 09:49:08,785 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:54:07 CST)" executed successfully
+2026-06-09 09:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:59:07 CST)" (scheduled at 2026-06-09 09:54:07.874602+08:00)
+2026-06-09 09:54:09,505 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 09:59:07 CST)" executed successfully
+2026-06-09 09:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:04:07 CST)" (scheduled at 2026-06-09 09:59:07.874602+08:00)
+2026-06-09 09:59:10,692 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:04:07 CST)" executed successfully
+2026-06-09 10:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:09:07 CST)" (scheduled at 2026-06-09 10:04:07.874602+08:00)
+2026-06-09 10:04:08,881 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:09:07 CST)" executed successfully
+2026-06-09 10:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:14:07 CST)" (scheduled at 2026-06-09 10:09:07.874602+08:00)
+2026-06-09 10:09:08,728 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:14:07 CST)" executed successfully
+2026-06-09 10:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:19:07 CST)" (scheduled at 2026-06-09 10:14:07.874602+08:00)
+2026-06-09 10:14:21,158 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:19:07 CST)" executed successfully
+2026-06-09 10:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:24:07 CST)" (scheduled at 2026-06-09 10:19:07.874602+08:00)
+2026-06-09 10:19:08,744 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:24:07 CST)" executed successfully
+2026-06-09 10:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:29:07 CST)" (scheduled at 2026-06-09 10:24:07.874602+08:00)
+2026-06-09 10:24:08,726 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:29:07 CST)" executed successfully
+2026-06-09 10:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:34:07 CST)" (scheduled at 2026-06-09 10:29:07.874602+08:00)
+2026-06-09 10:29:08,710 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:34:07 CST)" executed successfully
+2026-06-09 10:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:39:07 CST)" (scheduled at 2026-06-09 10:34:07.874602+08:00)
+2026-06-09 10:34:09,975 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:39:07 CST)" executed successfully
+2026-06-09 10:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:44:07 CST)" (scheduled at 2026-06-09 10:39:07.874602+08:00)
+2026-06-09 10:39:08,528 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:44:07 CST)" executed successfully
+2026-06-09 10:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:49:07 CST)" (scheduled at 2026-06-09 10:44:07.874602+08:00)
+2026-06-09 10:44:08,842 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:49:07 CST)" executed successfully
+2026-06-09 10:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:54:07 CST)" (scheduled at 2026-06-09 10:49:07.874602+08:00)
+2026-06-09 10:49:09,923 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:54:07 CST)" executed successfully
+2026-06-09 10:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:59:07 CST)" (scheduled at 2026-06-09 10:54:07.874602+08:00)
+2026-06-09 10:54:08,710 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 10:59:07 CST)" executed successfully
+2026-06-09 10:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:04:07 CST)" (scheduled at 2026-06-09 10:59:07.874602+08:00)
+2026-06-09 10:59:08,813 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:04:07 CST)" executed successfully
+2026-06-09 11:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:09:07 CST)" (scheduled at 2026-06-09 11:04:07.874602+08:00)
+2026-06-09 11:04:08,785 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:09:07 CST)" executed successfully
+2026-06-09 11:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:14:07 CST)" (scheduled at 2026-06-09 11:09:07.874602+08:00)
+2026-06-09 11:09:08,774 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:14:07 CST)" executed successfully
+2026-06-09 11:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:19:07 CST)" (scheduled at 2026-06-09 11:14:07.874602+08:00)
+2026-06-09 11:14:08,736 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:19:07 CST)" executed successfully
+2026-06-09 11:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:24:07 CST)" (scheduled at 2026-06-09 11:19:07.874602+08:00)
+2026-06-09 11:19:08,498 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:24:07 CST)" executed successfully
+2026-06-09 11:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:29:07 CST)" (scheduled at 2026-06-09 11:24:07.874602+08:00)
+2026-06-09 11:24:08,966 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:29:07 CST)" executed successfully
+2026-06-09 11:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:34:07 CST)" (scheduled at 2026-06-09 11:29:07.874602+08:00)
+2026-06-09 11:29:08,627 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:34:07 CST)" executed successfully
+2026-06-09 11:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:39:07 CST)" (scheduled at 2026-06-09 11:34:07.874602+08:00)
+2026-06-09 11:34:08,797 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:39:07 CST)" executed successfully
+2026-06-09 11:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:44:07 CST)" (scheduled at 2026-06-09 11:39:07.874602+08:00)
+2026-06-09 11:39:08,754 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:44:07 CST)" executed successfully
+2026-06-09 11:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:49:07 CST)" (scheduled at 2026-06-09 11:44:07.874602+08:00)
+2026-06-09 11:44:10,467 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:49:07 CST)" executed successfully
+2026-06-09 11:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:54:07 CST)" (scheduled at 2026-06-09 11:49:07.874602+08:00)
+2026-06-09 11:49:08,726 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:54:07 CST)" executed successfully
+2026-06-09 11:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:59:07 CST)" (scheduled at 2026-06-09 11:54:07.874602+08:00)
+2026-06-09 11:54:11,480 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 11:59:07 CST)" executed successfully
+2026-06-09 11:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:04:07 CST)" (scheduled at 2026-06-09 11:59:07.874602+08:00)
+2026-06-09 11:59:08,975 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:04:07 CST)" executed successfully
+2026-06-09 12:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:09:07 CST)" (scheduled at 2026-06-09 12:04:07.874602+08:00)
+2026-06-09 12:04:09,870 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:09:07 CST)" executed successfully
+2026-06-09 12:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:14:07 CST)" (scheduled at 2026-06-09 12:09:07.874602+08:00)
+2026-06-09 12:09:08,751 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:14:07 CST)" executed successfully
+2026-06-09 12:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:19:07 CST)" (scheduled at 2026-06-09 12:14:07.874602+08:00)
+2026-06-09 12:14:09,646 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:19:07 CST)" executed successfully
+2026-06-09 12:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:24:07 CST)" (scheduled at 2026-06-09 12:19:07.874602+08:00)
+2026-06-09 12:19:08,518 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:24:07 CST)" executed successfully
+2026-06-09 12:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:29:07 CST)" (scheduled at 2026-06-09 12:24:07.874602+08:00)
+2026-06-09 12:24:08,662 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:29:07 CST)" executed successfully
+2026-06-09 12:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:34:07 CST)" (scheduled at 2026-06-09 12:29:07.874602+08:00)
+2026-06-09 12:29:08,898 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:34:07 CST)" executed successfully
+2026-06-09 12:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:39:07 CST)" (scheduled at 2026-06-09 12:34:07.874602+08:00)
+2026-06-09 12:34:08,625 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:39:07 CST)" executed successfully
+2026-06-09 12:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:44:07 CST)" (scheduled at 2026-06-09 12:39:07.874602+08:00)
+2026-06-09 12:39:10,501 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:44:07 CST)" executed successfully
+2026-06-09 12:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:49:07 CST)" (scheduled at 2026-06-09 12:44:07.874602+08:00)
+2026-06-09 12:44:09,845 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:49:07 CST)" executed successfully
+2026-06-09 12:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:54:07 CST)" (scheduled at 2026-06-09 12:49:07.874602+08:00)
+2026-06-09 12:49:08,928 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:54:07 CST)" executed successfully
+2026-06-09 12:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:59:07 CST)" (scheduled at 2026-06-09 12:54:07.874602+08:00)
+2026-06-09 12:54:08,831 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 12:59:07 CST)" executed successfully
+2026-06-09 12:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:04:07 CST)" (scheduled at 2026-06-09 12:59:07.874602+08:00)
+2026-06-09 12:59:10,080 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:04:07 CST)" executed successfully
+2026-06-09 13:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:09:07 CST)" (scheduled at 2026-06-09 13:04:07.874602+08:00)
+2026-06-09 13:04:11,151 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:09:07 CST)" executed successfully
+2026-06-09 13:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:14:07 CST)" (scheduled at 2026-06-09 13:09:07.874602+08:00)
+2026-06-09 13:09:08,853 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:14:07 CST)" executed successfully
+2026-06-09 13:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:19:07 CST)" (scheduled at 2026-06-09 13:14:07.874602+08:00)
+2026-06-09 13:14:12,066 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:19:07 CST)" executed successfully
+2026-06-09 13:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:24:07 CST)" (scheduled at 2026-06-09 13:19:07.874602+08:00)
+2026-06-09 13:19:08,600 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:24:07 CST)" executed successfully
+2026-06-09 13:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:29:07 CST)" (scheduled at 2026-06-09 13:24:07.874602+08:00)
+2026-06-09 13:24:09,240 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:29:07 CST)" executed successfully
+2026-06-09 13:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:34:07 CST)" (scheduled at 2026-06-09 13:29:07.874602+08:00)
+2026-06-09 13:29:11,684 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:34:07 CST)" executed successfully
+2026-06-09 13:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:39:07 CST)" (scheduled at 2026-06-09 13:34:07.874602+08:00)
+2026-06-09 13:34:09,899 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:39:07 CST)" executed successfully
+2026-06-09 13:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:44:07 CST)" (scheduled at 2026-06-09 13:39:07.874602+08:00)
+2026-06-09 13:39:08,920 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:44:07 CST)" executed successfully
+2026-06-09 13:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:49:07 CST)" (scheduled at 2026-06-09 13:44:07.874602+08:00)
+2026-06-09 13:44:09,202 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:49:07 CST)" executed successfully
+2026-06-09 13:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:54:07 CST)" (scheduled at 2026-06-09 13:49:07.874602+08:00)
+2026-06-09 13:49:18,086 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:54:07 CST)" executed successfully
+2026-06-09 13:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:59:07 CST)" (scheduled at 2026-06-09 13:54:07.874602+08:00)
+2026-06-09 13:54:09,161 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 13:59:07 CST)" executed successfully
+2026-06-09 13:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:04:07 CST)" (scheduled at 2026-06-09 13:59:07.874602+08:00)
+2026-06-09 13:59:08,831 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:04:07 CST)" executed successfully
+2026-06-09 14:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:09:07 CST)" (scheduled at 2026-06-09 14:04:07.874602+08:00)
+2026-06-09 14:04:08,642 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:09:07 CST)" executed successfully
+2026-06-09 14:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:14:07 CST)" (scheduled at 2026-06-09 14:09:07.874602+08:00)
+2026-06-09 14:09:08,969 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:14:07 CST)" executed successfully
+2026-06-09 14:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:19:07 CST)" (scheduled at 2026-06-09 14:14:07.874602+08:00)
+2026-06-09 14:14:09,333 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:19:07 CST)" executed successfully
+2026-06-09 14:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:24:07 CST)" (scheduled at 2026-06-09 14:19:07.874602+08:00)
+2026-06-09 14:19:10,853 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:24:07 CST)" executed successfully
+2026-06-09 14:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:29:07 CST)" (scheduled at 2026-06-09 14:24:07.874602+08:00)
+2026-06-09 14:24:10,435 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:29:07 CST)" executed successfully
+2026-06-09 14:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:34:07 CST)" (scheduled at 2026-06-09 14:29:07.874602+08:00)
+2026-06-09 14:29:10,123 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:34:07 CST)" executed successfully
+2026-06-09 14:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:39:07 CST)" (scheduled at 2026-06-09 14:34:07.874602+08:00)
+2026-06-09 14:34:10,975 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:39:07 CST)" executed successfully
+2026-06-09 14:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:44:07 CST)" (scheduled at 2026-06-09 14:39:07.874602+08:00)
+2026-06-09 14:39:08,750 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:44:07 CST)" executed successfully
+2026-06-09 14:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:49:07 CST)" (scheduled at 2026-06-09 14:44:07.874602+08:00)
+2026-06-09 14:44:08,825 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:49:07 CST)" executed successfully
+2026-06-09 14:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:54:07 CST)" (scheduled at 2026-06-09 14:49:07.874602+08:00)
+2026-06-09 14:49:12,651 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:54:07 CST)" executed successfully
+2026-06-09 14:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:59:07 CST)" (scheduled at 2026-06-09 14:54:07.874602+08:00)
+2026-06-09 14:54:09,229 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 14:59:07 CST)" executed successfully
+2026-06-09 14:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:04:07 CST)" (scheduled at 2026-06-09 14:59:07.874602+08:00)
+2026-06-09 14:59:10,248 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:04:07 CST)" executed successfully
+2026-06-09 15:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:09:07 CST)" (scheduled at 2026-06-09 15:04:07.874602+08:00)
+2026-06-09 15:04:08,875 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:09:07 CST)" executed successfully
+2026-06-09 15:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:14:07 CST)" (scheduled at 2026-06-09 15:09:07.874602+08:00)
+2026-06-09 15:09:09,122 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:14:07 CST)" executed successfully
+2026-06-09 15:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:19:07 CST)" (scheduled at 2026-06-09 15:14:07.874602+08:00)
+2026-06-09 15:14:09,932 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:19:07 CST)" executed successfully
+2026-06-09 15:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:24:07 CST)" (scheduled at 2026-06-09 15:19:07.874602+08:00)
+2026-06-09 15:19:09,093 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:24:07 CST)" executed successfully
+2026-06-09 15:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:29:07 CST)" (scheduled at 2026-06-09 15:24:07.874602+08:00)
+2026-06-09 15:24:08,655 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:29:07 CST)" executed successfully
+2026-06-09 15:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:34:07 CST)" (scheduled at 2026-06-09 15:29:07.874602+08:00)
+2026-06-09 15:29:09,486 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:34:07 CST)" executed successfully
+2026-06-09 15:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:39:07 CST)" (scheduled at 2026-06-09 15:34:07.874602+08:00)
+2026-06-09 15:34:11,457 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:39:07 CST)" executed successfully
+2026-06-09 15:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:44:07 CST)" (scheduled at 2026-06-09 15:39:07.874602+08:00)
+2026-06-09 15:39:09,758 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:44:07 CST)" executed successfully
+2026-06-09 15:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:49:07 CST)" (scheduled at 2026-06-09 15:44:07.874602+08:00)
+2026-06-09 15:44:09,048 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:49:07 CST)" executed successfully
+2026-06-09 15:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:54:07 CST)" (scheduled at 2026-06-09 15:49:07.874602+08:00)
+2026-06-09 15:49:08,694 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:54:07 CST)" executed successfully
+2026-06-09 15:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:59:07 CST)" (scheduled at 2026-06-09 15:54:07.874602+08:00)
+2026-06-09 15:54:09,032 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 15:59:07 CST)" executed successfully
+2026-06-09 15:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:04:07 CST)" (scheduled at 2026-06-09 15:59:07.874602+08:00)
+2026-06-09 15:59:08,559 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:04:07 CST)" executed successfully
+2026-06-09 16:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:09:07 CST)" (scheduled at 2026-06-09 16:04:07.874602+08:00)
+2026-06-09 16:04:08,518 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:09:07 CST)" executed successfully
+2026-06-09 16:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:14:07 CST)" (scheduled at 2026-06-09 16:09:07.874602+08:00)
+2026-06-09 16:09:09,717 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:14:07 CST)" executed successfully
+2026-06-09 16:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:19:07 CST)" (scheduled at 2026-06-09 16:14:07.874602+08:00)
+2026-06-09 16:14:09,197 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:19:07 CST)" executed successfully
+2026-06-09 16:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:24:07 CST)" (scheduled at 2026-06-09 16:19:07.874602+08:00)
+2026-06-09 16:19:11,241 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:24:07 CST)" executed successfully
+2026-06-09 16:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:29:07 CST)" (scheduled at 2026-06-09 16:24:07.874602+08:00)
+2026-06-09 16:24:12,955 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:29:07 CST)" executed successfully
+2026-06-09 16:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:34:07 CST)" (scheduled at 2026-06-09 16:29:07.874602+08:00)
+2026-06-09 16:29:08,944 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:34:07 CST)" executed successfully
+2026-06-09 16:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:39:07 CST)" (scheduled at 2026-06-09 16:34:07.874602+08:00)
+2026-06-09 16:34:09,111 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:39:07 CST)" executed successfully
+2026-06-09 16:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:44:07 CST)" (scheduled at 2026-06-09 16:39:07.874602+08:00)
+2026-06-09 16:39:11,084 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:44:07 CST)" executed successfully
+2026-06-09 16:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:49:07 CST)" (scheduled at 2026-06-09 16:44:07.874602+08:00)
+2026-06-09 16:44:09,018 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:49:07 CST)" executed successfully
+2026-06-09 16:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:54:07 CST)" (scheduled at 2026-06-09 16:49:07.874602+08:00)
+2026-06-09 16:49:08,868 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:54:07 CST)" executed successfully
+2026-06-09 16:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:59:07 CST)" (scheduled at 2026-06-09 16:54:07.874602+08:00)
+2026-06-09 16:54:11,602 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 16:59:07 CST)" executed successfully
+2026-06-09 16:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:04:07 CST)" (scheduled at 2026-06-09 16:59:07.874602+08:00)
+2026-06-09 16:59:10,187 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:04:07 CST)" executed successfully
+2026-06-09 17:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:09:07 CST)" (scheduled at 2026-06-09 17:04:07.874602+08:00)
+2026-06-09 17:04:10,635 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:09:07 CST)" executed successfully
+2026-06-09 17:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:14:07 CST)" (scheduled at 2026-06-09 17:09:07.874602+08:00)
+2026-06-09 17:09:08,993 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:14:07 CST)" executed successfully
+2026-06-09 17:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:19:07 CST)" (scheduled at 2026-06-09 17:14:07.874602+08:00)
+2026-06-09 17:14:12,079 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:19:07 CST)" executed successfully
+2026-06-09 17:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:24:07 CST)" (scheduled at 2026-06-09 17:19:07.874602+08:00)
+2026-06-09 17:19:09,062 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:24:07 CST)" executed successfully
+2026-06-09 17:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:29:07 CST)" (scheduled at 2026-06-09 17:24:07.874602+08:00)
+2026-06-09 17:24:08,567 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:29:07 CST)" executed successfully
+2026-06-09 17:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:34:07 CST)" (scheduled at 2026-06-09 17:29:07.874602+08:00)
+2026-06-09 17:29:09,054 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:34:07 CST)" executed successfully
+2026-06-09 17:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:39:07 CST)" (scheduled at 2026-06-09 17:34:07.874602+08:00)
+2026-06-09 17:34:10,871 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:39:07 CST)" executed successfully
+2026-06-09 17:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:44:07 CST)" (scheduled at 2026-06-09 17:39:07.874602+08:00)
+2026-06-09 17:39:09,120 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:44:07 CST)" executed successfully
+2026-06-09 17:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:49:07 CST)" (scheduled at 2026-06-09 17:44:07.874602+08:00)
+2026-06-09 17:44:08,830 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:49:07 CST)" executed successfully
+2026-06-09 17:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:54:07 CST)" (scheduled at 2026-06-09 17:49:07.874602+08:00)
+2026-06-09 17:49:10,447 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:54:07 CST)" executed successfully
+2026-06-09 17:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:59:07 CST)" (scheduled at 2026-06-09 17:54:07.874602+08:00)
+2026-06-09 17:54:08,856 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 17:59:07 CST)" executed successfully
+2026-06-09 17:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:04:07 CST)" (scheduled at 2026-06-09 17:59:07.874602+08:00)
+2026-06-09 17:59:08,813 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:04:07 CST)" executed successfully
+2026-06-09 18:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:09:07 CST)" (scheduled at 2026-06-09 18:04:07.874602+08:00)
+2026-06-09 18:04:09,043 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:09:07 CST)" executed successfully
+2026-06-09 18:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:14:07 CST)" (scheduled at 2026-06-09 18:09:07.874602+08:00)
+2026-06-09 18:09:12,528 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:14:07 CST)" executed successfully
+2026-06-09 18:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:19:07 CST)" (scheduled at 2026-06-09 18:14:07.874602+08:00)
+2026-06-09 18:14:09,026 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:19:07 CST)" executed successfully
+2026-06-09 18:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:24:07 CST)" (scheduled at 2026-06-09 18:19:07.874602+08:00)
+2026-06-09 18:19:09,949 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:24:07 CST)" executed successfully
+2026-06-09 18:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:29:07 CST)" (scheduled at 2026-06-09 18:24:07.874602+08:00)
+2026-06-09 18:24:09,565 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:29:07 CST)" executed successfully
+2026-06-09 18:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:34:07 CST)" (scheduled at 2026-06-09 18:29:07.874602+08:00)
+2026-06-09 18:29:08,865 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:34:07 CST)" executed successfully
+2026-06-09 18:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:39:07 CST)" (scheduled at 2026-06-09 18:34:07.874602+08:00)
+2026-06-09 18:34:10,629 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:39:07 CST)" executed successfully
+2026-06-09 18:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:44:07 CST)" (scheduled at 2026-06-09 18:39:07.874602+08:00)
+2026-06-09 18:39:09,153 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:44:07 CST)" executed successfully
+2026-06-09 18:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:49:07 CST)" (scheduled at 2026-06-09 18:44:07.874602+08:00)
+2026-06-09 18:44:12,312 [INFO] monitor.pipeline: 序列 20260607104158: 1 行
+2026-06-09 18:44:12,607 [ERROR] monitor.pipeline: 刷新失败 20260607104158: 'models'
+2026-06-09 18:44:12,609 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:49:07 CST)" executed successfully
+2026-06-09 18:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:54:07 CST)" (scheduled at 2026-06-09 18:49:07.874602+08:00)
+2026-06-09 18:49:12,224 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:54:07 CST)" executed successfully
+2026-06-09 18:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:59:07 CST)" (scheduled at 2026-06-09 18:54:07.874602+08:00)
+2026-06-09 18:54:10,804 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 18:59:07 CST)" executed successfully
+2026-06-09 18:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:04:07 CST)" (scheduled at 2026-06-09 18:59:07.874602+08:00)
+2026-06-09 18:59:09,090 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:04:07 CST)" executed successfully
+2026-06-09 19:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:09:07 CST)" (scheduled at 2026-06-09 19:04:07.874602+08:00)
+2026-06-09 19:04:10,320 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:09:07 CST)" executed successfully
+2026-06-09 19:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:14:07 CST)" (scheduled at 2026-06-09 19:09:07.874602+08:00)
+2026-06-09 19:09:12,884 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:14:07 CST)" executed successfully
+2026-06-09 19:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:19:07 CST)" (scheduled at 2026-06-09 19:14:07.874602+08:00)
+2026-06-09 19:14:10,225 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:19:07 CST)" executed successfully
+2026-06-09 19:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:24:07 CST)" (scheduled at 2026-06-09 19:19:07.874602+08:00)
+2026-06-09 19:19:10,118 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:24:07 CST)" executed successfully
+2026-06-09 19:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:29:07 CST)" (scheduled at 2026-06-09 19:24:07.874602+08:00)
+2026-06-09 19:24:12,855 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:29:07 CST)" executed successfully
+2026-06-09 19:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:34:07 CST)" (scheduled at 2026-06-09 19:29:07.874602+08:00)
+2026-06-09 19:29:09,772 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:34:07 CST)" executed successfully
+2026-06-09 19:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:39:07 CST)" (scheduled at 2026-06-09 19:34:07.874602+08:00)
+2026-06-09 19:34:08,969 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:39:07 CST)" executed successfully
+2026-06-09 19:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:44:07 CST)" (scheduled at 2026-06-09 19:39:07.874602+08:00)
+2026-06-09 19:39:09,119 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:44:07 CST)" executed successfully
+2026-06-09 19:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:49:07 CST)" (scheduled at 2026-06-09 19:44:07.874602+08:00)
+2026-06-09 19:44:09,663 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:49:07 CST)" executed successfully
+2026-06-09 19:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:54:07 CST)" (scheduled at 2026-06-09 19:49:07.874602+08:00)
+2026-06-09 19:49:09,802 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:54:07 CST)" executed successfully
+2026-06-09 19:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:59:07 CST)" (scheduled at 2026-06-09 19:54:07.874602+08:00)
+2026-06-09 19:54:11,888 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 19:59:07 CST)" executed successfully
+2026-06-09 19:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:04:07 CST)" (scheduled at 2026-06-09 19:59:07.874602+08:00)
+2026-06-09 19:59:11,963 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:04:07 CST)" executed successfully
+2026-06-09 20:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:09:07 CST)" (scheduled at 2026-06-09 20:04:07.874602+08:00)
+2026-06-09 20:04:08,608 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:09:07 CST)" executed successfully
+2026-06-09 20:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:14:07 CST)" (scheduled at 2026-06-09 20:09:07.874602+08:00)
+2026-06-09 20:09:08,963 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:14:07 CST)" executed successfully
+2026-06-09 20:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:19:07 CST)" (scheduled at 2026-06-09 20:14:07.874602+08:00)
+2026-06-09 20:14:10,239 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:19:07 CST)" executed successfully
+2026-06-09 20:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:24:07 CST)" (scheduled at 2026-06-09 20:19:07.874602+08:00)
+2026-06-09 20:19:09,163 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:24:07 CST)" executed successfully
+2026-06-09 20:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:29:07 CST)" (scheduled at 2026-06-09 20:24:07.874602+08:00)
+2026-06-09 20:24:11,245 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:29:07 CST)" executed successfully
+2026-06-09 20:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:34:07 CST)" (scheduled at 2026-06-09 20:29:07.874602+08:00)
+2026-06-09 20:29:10,733 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:34:07 CST)" executed successfully
+2026-06-09 20:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:39:07 CST)" (scheduled at 2026-06-09 20:34:07.874602+08:00)
+2026-06-09 20:34:13,366 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:39:07 CST)" executed successfully
+2026-06-09 20:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:44:07 CST)" (scheduled at 2026-06-09 20:39:07.874602+08:00)
+2026-06-09 20:39:09,428 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:44:07 CST)" executed successfully
+2026-06-09 20:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:49:07 CST)" (scheduled at 2026-06-09 20:44:07.874602+08:00)
+2026-06-09 20:44:10,041 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:49:07 CST)" executed successfully
+2026-06-09 20:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:54:07 CST)" (scheduled at 2026-06-09 20:49:07.874602+08:00)
+2026-06-09 20:49:09,408 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:54:07 CST)" executed successfully
+2026-06-09 20:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:59:07 CST)" (scheduled at 2026-06-09 20:54:07.874602+08:00)
+2026-06-09 20:54:18,563 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 20:59:07 CST)" executed successfully
+2026-06-09 20:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:04:07 CST)" (scheduled at 2026-06-09 20:59:07.874602+08:00)
+2026-06-09 20:59:11,762 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:04:07 CST)" executed successfully
+2026-06-09 21:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:09:07 CST)" (scheduled at 2026-06-09 21:04:07.874602+08:00)
+2026-06-09 21:04:11,239 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:09:07 CST)" executed successfully
+2026-06-09 21:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:14:07 CST)" (scheduled at 2026-06-09 21:09:07.874602+08:00)
+2026-06-09 21:09:10,962 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:14:07 CST)" executed successfully
+2026-06-09 21:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:19:07 CST)" (scheduled at 2026-06-09 21:14:07.874602+08:00)
+2026-06-09 21:14:09,203 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:19:07 CST)" executed successfully
+2026-06-09 21:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:24:07 CST)" (scheduled at 2026-06-09 21:19:07.874602+08:00)
+2026-06-09 21:19:09,439 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:24:07 CST)" executed successfully
+2026-06-09 21:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:29:07 CST)" (scheduled at 2026-06-09 21:24:07.874602+08:00)
+2026-06-09 21:24:09,902 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:29:07 CST)" executed successfully
+2026-06-09 21:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:34:07 CST)" (scheduled at 2026-06-09 21:29:07.874602+08:00)
+2026-06-09 21:29:09,354 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:34:07 CST)" executed successfully
+2026-06-09 21:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:39:07 CST)" (scheduled at 2026-06-09 21:34:07.874602+08:00)
+2026-06-09 21:34:09,454 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:39:07 CST)" executed successfully
+2026-06-09 21:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:44:07 CST)" (scheduled at 2026-06-09 21:39:07.874602+08:00)
+2026-06-09 21:39:10,729 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:44:07 CST)" executed successfully
+2026-06-09 21:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:49:07 CST)" (scheduled at 2026-06-09 21:44:07.874602+08:00)
+2026-06-09 21:44:10,771 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:49:07 CST)" executed successfully
+2026-06-09 21:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:54:07 CST)" (scheduled at 2026-06-09 21:49:07.874602+08:00)
+2026-06-09 21:49:09,610 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:54:07 CST)" executed successfully
+2026-06-09 21:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:59:07 CST)" (scheduled at 2026-06-09 21:54:07.874602+08:00)
+2026-06-09 21:54:09,888 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 21:59:07 CST)" executed successfully
+2026-06-09 21:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:04:07 CST)" (scheduled at 2026-06-09 21:59:07.874602+08:00)
+2026-06-09 21:59:09,770 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:04:07 CST)" executed successfully
+2026-06-09 22:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:09:07 CST)" (scheduled at 2026-06-09 22:04:07.874602+08:00)
+2026-06-09 22:04:11,516 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:09:07 CST)" executed successfully
+2026-06-09 22:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:14:07 CST)" (scheduled at 2026-06-09 22:09:07.874602+08:00)
+2026-06-09 22:09:09,033 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:14:07 CST)" executed successfully
+2026-06-09 22:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:19:07 CST)" (scheduled at 2026-06-09 22:14:07.874602+08:00)
+2026-06-09 22:14:14,788 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:19:07 CST)" executed successfully
+2026-06-09 22:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:24:07 CST)" (scheduled at 2026-06-09 22:19:07.874602+08:00)
+2026-06-09 22:19:08,732 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:24:07 CST)" executed successfully
+2026-06-09 22:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:29:07 CST)" (scheduled at 2026-06-09 22:24:07.874602+08:00)
+2026-06-09 22:24:12,079 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:29:07 CST)" executed successfully
+2026-06-09 22:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:34:07 CST)" (scheduled at 2026-06-09 22:29:07.874602+08:00)
+2026-06-09 22:29:09,947 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:34:07 CST)" executed successfully
+2026-06-09 22:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:39:07 CST)" (scheduled at 2026-06-09 22:34:07.874602+08:00)
+2026-06-09 22:34:12,403 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:39:07 CST)" executed successfully
+2026-06-09 22:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:44:07 CST)" (scheduled at 2026-06-09 22:39:07.874602+08:00)
+2026-06-09 22:39:09,455 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:44:07 CST)" executed successfully
+2026-06-09 22:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:49:07 CST)" (scheduled at 2026-06-09 22:44:07.874602+08:00)
+2026-06-09 22:44:08,779 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:49:07 CST)" executed successfully
+2026-06-09 22:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:54:07 CST)" (scheduled at 2026-06-09 22:49:07.874602+08:00)
+2026-06-09 22:49:08,562 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:54:07 CST)" executed successfully
+2026-06-09 22:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:59:07 CST)" (scheduled at 2026-06-09 22:54:07.874602+08:00)
+2026-06-09 22:54:10,477 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 22:59:07 CST)" executed successfully
+2026-06-09 22:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:04:07 CST)" (scheduled at 2026-06-09 22:59:07.874602+08:00)
+2026-06-09 22:59:11,065 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:04:07 CST)" executed successfully
+2026-06-09 23:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:09:07 CST)" (scheduled at 2026-06-09 23:04:07.874602+08:00)
+2026-06-09 23:04:11,737 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:09:07 CST)" executed successfully
+2026-06-09 23:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:14:07 CST)" (scheduled at 2026-06-09 23:09:07.874602+08:00)
+2026-06-09 23:09:25,162 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:14:07 CST)" executed successfully
+2026-06-09 23:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:19:07 CST)" (scheduled at 2026-06-09 23:14:07.874602+08:00)
+2026-06-09 23:14:08,852 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:19:07 CST)" executed successfully
+2026-06-09 23:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:24:07 CST)" (scheduled at 2026-06-09 23:19:07.874602+08:00)
+2026-06-09 23:19:08,916 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:24:07 CST)" executed successfully
+2026-06-09 23:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:29:07 CST)" (scheduled at 2026-06-09 23:24:07.874602+08:00)
+2026-06-09 23:24:11,072 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:29:07 CST)" executed successfully
+2026-06-09 23:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:34:07 CST)" (scheduled at 2026-06-09 23:29:07.874602+08:00)
+2026-06-09 23:29:09,846 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:34:07 CST)" executed successfully
+2026-06-09 23:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:39:07 CST)" (scheduled at 2026-06-09 23:34:07.874602+08:00)
+2026-06-09 23:34:09,984 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:39:07 CST)" executed successfully
+2026-06-09 23:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:44:07 CST)" (scheduled at 2026-06-09 23:39:07.874602+08:00)
+2026-06-09 23:39:10,630 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:44:07 CST)" executed successfully
+2026-06-09 23:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:49:07 CST)" (scheduled at 2026-06-09 23:44:07.874602+08:00)
+2026-06-09 23:44:11,566 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:49:07 CST)" executed successfully
+2026-06-09 23:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:54:07 CST)" (scheduled at 2026-06-09 23:49:07.874602+08:00)
+2026-06-09 23:49:09,348 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:54:07 CST)" executed successfully
+2026-06-09 23:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:59:07 CST)" (scheduled at 2026-06-09 23:54:07.874602+08:00)
+2026-06-09 23:54:08,784 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-09 23:59:07 CST)" executed successfully
+2026-06-09 23:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:04:07 CST)" (scheduled at 2026-06-09 23:59:07.874602+08:00)
+2026-06-09 23:59:09,441 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:04:07 CST)" executed successfully
+2026-06-10 00:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:09:07 CST)" (scheduled at 2026-06-10 00:04:07.874602+08:00)
+2026-06-10 00:04:10,438 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:09:07 CST)" executed successfully
+2026-06-10 00:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:14:07 CST)" (scheduled at 2026-06-10 00:09:07.874602+08:00)
+2026-06-10 00:09:10,622 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:14:07 CST)" executed successfully
+2026-06-10 00:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:19:07 CST)" (scheduled at 2026-06-10 00:14:07.874602+08:00)
+2026-06-10 00:14:09,273 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:19:07 CST)" executed successfully
+2026-06-10 00:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:24:07 CST)" (scheduled at 2026-06-10 00:19:07.874602+08:00)
+2026-06-10 00:19:10,205 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:24:07 CST)" executed successfully
+2026-06-10 00:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:29:07 CST)" (scheduled at 2026-06-10 00:24:07.874602+08:00)
+2026-06-10 00:24:08,915 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:29:07 CST)" executed successfully
+2026-06-10 00:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:34:07 CST)" (scheduled at 2026-06-10 00:29:07.874602+08:00)
+2026-06-10 00:29:12,766 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:34:07 CST)" executed successfully
+2026-06-10 00:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:39:07 CST)" (scheduled at 2026-06-10 00:34:07.874602+08:00)
+2026-06-10 00:34:11,702 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:39:07 CST)" executed successfully
+2026-06-10 00:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:44:07 CST)" (scheduled at 2026-06-10 00:39:07.874602+08:00)
+2026-06-10 00:39:08,799 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:44:07 CST)" executed successfully
+2026-06-10 00:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:49:07 CST)" (scheduled at 2026-06-10 00:44:07.874602+08:00)
+2026-06-10 00:44:16,829 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:49:07 CST)" executed successfully
+2026-06-10 00:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:54:07 CST)" (scheduled at 2026-06-10 00:49:07.874602+08:00)
+2026-06-10 00:49:09,712 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:54:07 CST)" executed successfully
+2026-06-10 00:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:59:07 CST)" (scheduled at 2026-06-10 00:54:07.874602+08:00)
+2026-06-10 00:54:09,380 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 00:59:07 CST)" executed successfully
+2026-06-10 00:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:04:07 CST)" (scheduled at 2026-06-10 00:59:07.874602+08:00)
+2026-06-10 00:59:11,564 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:04:07 CST)" executed successfully
+2026-06-10 01:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:09:07 CST)" (scheduled at 2026-06-10 01:04:07.874602+08:00)
+2026-06-10 01:04:12,162 [INFO] monitor.pipeline: 序列 20260608180027: 2 行
+2026-06-10 01:04:12,199 [ERROR] monitor.pipeline: 刷新失败 20260608180027: 'models'
+2026-06-10 01:04:13,086 [INFO] monitor.pipeline: 序列 20260608180025: 2 行
+2026-06-10 01:04:13,138 [ERROR] monitor.pipeline: 刷新失败 20260608180025: 'models'
+2026-06-10 01:04:13,143 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:09:07 CST)" executed successfully
+2026-06-10 01:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:14:07 CST)" (scheduled at 2026-06-10 01:09:07.874602+08:00)
+2026-06-10 01:09:09,043 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:14:07 CST)" executed successfully
+2026-06-10 01:14:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:19:07 CST)" (scheduled at 2026-06-10 01:14:07.874602+08:00)
+2026-06-10 01:14:09,112 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:19:07 CST)" executed successfully
+2026-06-10 01:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:24:07 CST)" (scheduled at 2026-06-10 01:19:07.874602+08:00)
+2026-06-10 01:19:09,194 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:24:07 CST)" executed successfully
+2026-06-10 01:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:29:07 CST)" (scheduled at 2026-06-10 01:24:07.874602+08:00)
+2026-06-10 01:24:08,824 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:29:07 CST)" executed successfully
+2026-06-10 01:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:34:07 CST)" (scheduled at 2026-06-10 01:29:07.874602+08:00)
+2026-06-10 01:29:11,284 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:34:07 CST)" executed successfully
+2026-06-10 01:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:39:07 CST)" (scheduled at 2026-06-10 01:34:07.874602+08:00)
+2026-06-10 01:34:08,564 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:39:07 CST)" executed successfully
+2026-06-10 01:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:44:07 CST)" (scheduled at 2026-06-10 01:39:07.874602+08:00)
+2026-06-10 01:39:09,933 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:44:07 CST)" executed successfully
+2026-06-10 01:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:49:07 CST)" (scheduled at 2026-06-10 01:44:07.874602+08:00)
+2026-06-10 01:44:08,539 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:49:07 CST)" executed successfully
+2026-06-10 01:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:54:07 CST)" (scheduled at 2026-06-10 01:49:07.874602+08:00)
+2026-06-10 01:49:09,041 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:54:07 CST)" executed successfully
+2026-06-10 01:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:59:07 CST)" (scheduled at 2026-06-10 01:54:07.874602+08:00)
+2026-06-10 01:54:08,563 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 01:59:07 CST)" executed successfully
+2026-06-10 01:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:04:07 CST)" (scheduled at 2026-06-10 01:59:07.874602+08:00)
+2026-06-10 01:59:08,661 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:04:07 CST)" executed successfully
+2026-06-10 02:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:09:07 CST)" (scheduled at 2026-06-10 02:04:07.874602+08:00)
+2026-06-10 02:04:08,564 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:09:07 CST)" executed successfully
+2026-06-10 02:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:14:07 CST)" (scheduled at 2026-06-10 02:09:07.874602+08:00)
+2026-06-10 02:09:11,943 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:14:07 CST)" executed successfully
+2026-06-10 02:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:19:07 CST)" (scheduled at 2026-06-10 02:14:07.874602+08:00)
+2026-06-10 02:14:08,608 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:19:07 CST)" executed successfully
+2026-06-10 02:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:24:07 CST)" (scheduled at 2026-06-10 02:19:07.874602+08:00)
+2026-06-10 02:19:09,041 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:24:07 CST)" executed successfully
+2026-06-10 02:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:29:07 CST)" (scheduled at 2026-06-10 02:24:07.874602+08:00)
+2026-06-10 02:24:08,833 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:29:07 CST)" executed successfully
+2026-06-10 02:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:34:07 CST)" (scheduled at 2026-06-10 02:29:07.874602+08:00)
+2026-06-10 02:29:15,089 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:34:07 CST)" executed successfully
+2026-06-10 02:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:39:07 CST)" (scheduled at 2026-06-10 02:34:07.874602+08:00)
+2026-06-10 02:34:09,024 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:39:07 CST)" executed successfully
+2026-06-10 02:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:44:07 CST)" (scheduled at 2026-06-10 02:39:07.874602+08:00)
+2026-06-10 02:39:10,271 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:44:07 CST)" executed successfully
+2026-06-10 02:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:49:07 CST)" (scheduled at 2026-06-10 02:44:07.874602+08:00)
+2026-06-10 02:44:08,986 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:49:07 CST)" executed successfully
+2026-06-10 02:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:54:07 CST)" (scheduled at 2026-06-10 02:49:07.874602+08:00)
+2026-06-10 02:49:09,020 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:54:07 CST)" executed successfully
+2026-06-10 02:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:59:07 CST)" (scheduled at 2026-06-10 02:54:07.874602+08:00)
+2026-06-10 02:54:08,864 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 02:59:07 CST)" executed successfully
+2026-06-10 02:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:04:07 CST)" (scheduled at 2026-06-10 02:59:07.874602+08:00)
+2026-06-10 02:59:08,542 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:04:07 CST)" executed successfully
+2026-06-10 03:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:09:07 CST)" (scheduled at 2026-06-10 03:04:07.874602+08:00)
+2026-06-10 03:04:09,052 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:09:07 CST)" executed successfully
+2026-06-10 03:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:14:07 CST)" (scheduled at 2026-06-10 03:09:07.874602+08:00)
+2026-06-10 03:09:09,025 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:14:07 CST)" executed successfully
+2026-06-10 03:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:19:07 CST)" (scheduled at 2026-06-10 03:14:07.874602+08:00)
+2026-06-10 03:14:08,879 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:19:07 CST)" executed successfully
+2026-06-10 03:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:24:07 CST)" (scheduled at 2026-06-10 03:19:07.874602+08:00)
+2026-06-10 03:19:09,080 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:24:07 CST)" executed successfully
+2026-06-10 03:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:29:07 CST)" (scheduled at 2026-06-10 03:24:07.874602+08:00)
+2026-06-10 03:24:09,094 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:29:07 CST)" executed successfully
+2026-06-10 03:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:34:07 CST)" (scheduled at 2026-06-10 03:29:07.874602+08:00)
+2026-06-10 03:29:11,457 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:34:07 CST)" executed successfully
+2026-06-10 03:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:39:07 CST)" (scheduled at 2026-06-10 03:34:07.874602+08:00)
+2026-06-10 03:34:09,878 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:39:07 CST)" executed successfully
+2026-06-10 03:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:44:07 CST)" (scheduled at 2026-06-10 03:39:07.874602+08:00)
+2026-06-10 03:39:08,996 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:44:07 CST)" executed successfully
+2026-06-10 03:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:49:07 CST)" (scheduled at 2026-06-10 03:44:07.874602+08:00)
+2026-06-10 03:44:08,813 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:49:07 CST)" executed successfully
+2026-06-10 03:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:54:07 CST)" (scheduled at 2026-06-10 03:49:07.874602+08:00)
+2026-06-10 03:49:08,706 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:54:07 CST)" executed successfully
+2026-06-10 03:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:59:07 CST)" (scheduled at 2026-06-10 03:54:07.874602+08:00)
+2026-06-10 03:54:09,062 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 03:59:07 CST)" executed successfully
+2026-06-10 03:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:04:07 CST)" (scheduled at 2026-06-10 03:59:07.874602+08:00)
+2026-06-10 03:59:08,791 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:04:07 CST)" executed successfully
+2026-06-10 04:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:09:07 CST)" (scheduled at 2026-06-10 04:04:07.874602+08:00)
+2026-06-10 04:04:09,835 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:09:07 CST)" executed successfully
+2026-06-10 04:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:14:07 CST)" (scheduled at 2026-06-10 04:09:07.874602+08:00)
+2026-06-10 04:09:08,555 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:14:07 CST)" executed successfully
+2026-06-10 04:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:19:07 CST)" (scheduled at 2026-06-10 04:14:07.874602+08:00)
+2026-06-10 04:14:09,364 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:19:07 CST)" executed successfully
+2026-06-10 04:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:24:07 CST)" (scheduled at 2026-06-10 04:19:07.874602+08:00)
+2026-06-10 04:19:08,866 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:24:07 CST)" executed successfully
+2026-06-10 04:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:29:07 CST)" (scheduled at 2026-06-10 04:24:07.874602+08:00)
+2026-06-10 04:24:08,778 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:29:07 CST)" executed successfully
+2026-06-10 04:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:34:07 CST)" (scheduled at 2026-06-10 04:29:07.874602+08:00)
+2026-06-10 04:29:08,959 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:34:07 CST)" executed successfully
+2026-06-10 04:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:39:07 CST)" (scheduled at 2026-06-10 04:34:07.874602+08:00)
+2026-06-10 04:34:08,831 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:39:07 CST)" executed successfully
+2026-06-10 04:39:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:44:07 CST)" (scheduled at 2026-06-10 04:39:07.874602+08:00)
+2026-06-10 04:39:08,805 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:44:07 CST)" executed successfully
+2026-06-10 04:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:49:07 CST)" (scheduled at 2026-06-10 04:44:07.874602+08:00)
+2026-06-10 04:44:08,875 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:49:07 CST)" executed successfully
+2026-06-10 04:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:54:07 CST)" (scheduled at 2026-06-10 04:49:07.874602+08:00)
+2026-06-10 04:49:08,995 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:54:07 CST)" executed successfully
+2026-06-10 04:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:59:07 CST)" (scheduled at 2026-06-10 04:54:07.874602+08:00)
+2026-06-10 04:54:09,433 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 04:59:07 CST)" executed successfully
+2026-06-10 04:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:04:07 CST)" (scheduled at 2026-06-10 04:59:07.874602+08:00)
+2026-06-10 04:59:08,631 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:04:07 CST)" executed successfully
+2026-06-10 05:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:09:07 CST)" (scheduled at 2026-06-10 05:04:07.874602+08:00)
+2026-06-10 05:04:08,839 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:09:07 CST)" executed successfully
+2026-06-10 05:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:14:07 CST)" (scheduled at 2026-06-10 05:09:07.874602+08:00)
+2026-06-10 05:09:09,012 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:14:07 CST)" executed successfully
+2026-06-10 05:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:19:07 CST)" (scheduled at 2026-06-10 05:14:07.874602+08:00)
+2026-06-10 05:14:10,119 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:19:07 CST)" executed successfully
+2026-06-10 05:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:24:07 CST)" (scheduled at 2026-06-10 05:19:07.874602+08:00)
+2026-06-10 05:19:08,561 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:24:07 CST)" executed successfully
+2026-06-10 05:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:29:07 CST)" (scheduled at 2026-06-10 05:24:07.874602+08:00)
+2026-06-10 05:24:08,883 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:29:07 CST)" executed successfully
+2026-06-10 05:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:34:07 CST)" (scheduled at 2026-06-10 05:29:07.874602+08:00)
+2026-06-10 05:29:08,877 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:34:07 CST)" executed successfully
+2026-06-10 05:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:39:07 CST)" (scheduled at 2026-06-10 05:34:07.874602+08:00)
+2026-06-10 05:34:08,802 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:39:07 CST)" executed successfully
+2026-06-10 05:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:44:07 CST)" (scheduled at 2026-06-10 05:39:07.874602+08:00)
+2026-06-10 05:39:08,802 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:44:07 CST)" executed successfully
+2026-06-10 05:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:49:07 CST)" (scheduled at 2026-06-10 05:44:07.874602+08:00)
+2026-06-10 05:44:08,569 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:49:07 CST)" executed successfully
+2026-06-10 05:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:54:07 CST)" (scheduled at 2026-06-10 05:49:07.874602+08:00)
+2026-06-10 05:49:08,729 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:54:07 CST)" executed successfully
+2026-06-10 05:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:59:07 CST)" (scheduled at 2026-06-10 05:54:07.874602+08:00)
+2026-06-10 05:54:08,841 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 05:59:07 CST)" executed successfully
+2026-06-10 05:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:04:07 CST)" (scheduled at 2026-06-10 05:59:07.874602+08:00)
+2026-06-10 05:59:09,012 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:04:07 CST)" executed successfully
+2026-06-10 06:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:09:07 CST)" (scheduled at 2026-06-10 06:04:07.874602+08:00)
+2026-06-10 06:04:08,944 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:09:07 CST)" executed successfully
+2026-06-10 06:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:14:07 CST)" (scheduled at 2026-06-10 06:09:07.874602+08:00)
+2026-06-10 06:09:09,808 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:14:07 CST)" executed successfully
+2026-06-10 06:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:19:07 CST)" (scheduled at 2026-06-10 06:14:07.874602+08:00)
+2026-06-10 06:14:09,020 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:19:07 CST)" executed successfully
+2026-06-10 06:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:24:07 CST)" (scheduled at 2026-06-10 06:19:07.874602+08:00)
+2026-06-10 06:19:08,766 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:24:07 CST)" executed successfully
+2026-06-10 06:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:29:07 CST)" (scheduled at 2026-06-10 06:24:07.874602+08:00)
+2026-06-10 06:24:08,894 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:29:07 CST)" executed successfully
+2026-06-10 06:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:34:07 CST)" (scheduled at 2026-06-10 06:29:07.874602+08:00)
+2026-06-10 06:29:08,769 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:34:07 CST)" executed successfully
+2026-06-10 06:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:39:07 CST)" (scheduled at 2026-06-10 06:34:07.874602+08:00)
+2026-06-10 06:34:08,734 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:39:07 CST)" executed successfully
+2026-06-10 06:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:44:07 CST)" (scheduled at 2026-06-10 06:39:07.874602+08:00)
+2026-06-10 06:39:08,880 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:44:07 CST)" executed successfully
+2026-06-10 06:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:49:07 CST)" (scheduled at 2026-06-10 06:44:07.874602+08:00)
+2026-06-10 06:44:08,672 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:49:07 CST)" executed successfully
+2026-06-10 06:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:54:07 CST)" (scheduled at 2026-06-10 06:49:07.874602+08:00)
+2026-06-10 06:49:09,914 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:54:07 CST)" executed successfully
+2026-06-10 06:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:59:07 CST)" (scheduled at 2026-06-10 06:54:07.874602+08:00)
+2026-06-10 06:54:09,044 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 06:59:07 CST)" executed successfully
+2026-06-10 06:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:04:07 CST)" (scheduled at 2026-06-10 06:59:07.874602+08:00)
+2026-06-10 06:59:09,629 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:04:07 CST)" executed successfully
+2026-06-10 07:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:09:07 CST)" (scheduled at 2026-06-10 07:04:07.874602+08:00)
+2026-06-10 07:04:08,784 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:09:07 CST)" executed successfully
+2026-06-10 07:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:14:07 CST)" (scheduled at 2026-06-10 07:09:07.874602+08:00)
+2026-06-10 07:09:10,551 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:14:07 CST)" executed successfully
+2026-06-10 07:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:19:07 CST)" (scheduled at 2026-06-10 07:14:07.874602+08:00)
+2026-06-10 07:14:08,997 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:19:07 CST)" executed successfully
+2026-06-10 07:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:24:07 CST)" (scheduled at 2026-06-10 07:19:07.874602+08:00)
+2026-06-10 07:19:08,714 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:24:07 CST)" executed successfully
+2026-06-10 07:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:29:07 CST)" (scheduled at 2026-06-10 07:24:07.874602+08:00)
+2026-06-10 07:24:09,535 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:29:07 CST)" executed successfully
+2026-06-10 07:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:34:07 CST)" (scheduled at 2026-06-10 07:29:07.874602+08:00)
+2026-06-10 07:29:09,037 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:34:07 CST)" executed successfully
+2026-06-10 07:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:39:07 CST)" (scheduled at 2026-06-10 07:34:07.874602+08:00)
+2026-06-10 07:34:08,742 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:39:07 CST)" executed successfully
+2026-06-10 07:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:44:07 CST)" (scheduled at 2026-06-10 07:39:07.874602+08:00)
+2026-06-10 07:39:12,842 [INFO] monitor.pipeline: 序列 20260607233741: 5 行
+2026-06-10 07:39:12,894 [ERROR] monitor.pipeline: 刷新失败 20260607233741: 'models'
+2026-06-10 07:39:15,080 [INFO] monitor.pipeline: 序列 20260607233740: 6 行
+2026-06-10 07:39:15,131 [ERROR] monitor.pipeline: 刷新失败 20260607233740: 'models'
+2026-06-10 07:39:15,133 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:44:07 CST)" executed successfully
+2026-06-10 07:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:49:07 CST)" (scheduled at 2026-06-10 07:44:07.874602+08:00)
+2026-06-10 07:44:10,864 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:49:07 CST)" executed successfully
+2026-06-10 07:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:54:07 CST)" (scheduled at 2026-06-10 07:49:07.874602+08:00)
+2026-06-10 07:49:13,589 [INFO] monitor.pipeline: 序列 20260607234811: 4 行
+2026-06-10 07:49:13,638 [ERROR] monitor.pipeline: 刷新失败 20260607234811: 'models'
+2026-06-10 07:49:15,752 [INFO] monitor.pipeline: 序列 20260607234809: 5 行
+2026-06-10 07:49:15,801 [ERROR] monitor.pipeline: 刷新失败 20260607234809: 'models'
+2026-06-10 07:49:15,803 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:54:07 CST)" executed successfully
+2026-06-10 07:54:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:59:07 CST)" (scheduled at 2026-06-10 07:54:07.874602+08:00)
+2026-06-10 07:54:10,873 [INFO] monitor.pipeline: 序列 20260607234914: 3 行
+2026-06-10 07:54:10,924 [ERROR] monitor.pipeline: 刷新失败 20260607234914: 'models'
+2026-06-10 07:54:13,072 [INFO] monitor.pipeline: 序列 20260607234913: 4 行
+2026-06-10 07:54:13,118 [ERROR] monitor.pipeline: 刷新失败 20260607234913: 'models'
+2026-06-10 07:54:13,120 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 07:59:07 CST)" executed successfully
+2026-06-10 07:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:04:07 CST)" (scheduled at 2026-06-10 07:59:07.874602+08:00)
+2026-06-10 07:59:08,967 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:04:07 CST)" executed successfully
+2026-06-10 08:04:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:09:07 CST)" (scheduled at 2026-06-10 08:04:07.874602+08:00)
+2026-06-10 08:04:08,622 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:09:07 CST)" executed successfully
+2026-06-10 08:09:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:14:07 CST)" (scheduled at 2026-06-10 08:09:07.874602+08:00)
+2026-06-10 08:09:09,896 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:14:07 CST)" executed successfully
+2026-06-10 08:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:19:07 CST)" (scheduled at 2026-06-10 08:14:07.874602+08:00)
+2026-06-10 08:14:08,579 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:19:07 CST)" executed successfully
+2026-06-10 08:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:24:07 CST)" (scheduled at 2026-06-10 08:19:07.874602+08:00)
+2026-06-10 08:19:09,090 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:24:07 CST)" executed successfully
+2026-06-10 08:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:29:07 CST)" (scheduled at 2026-06-10 08:24:07.874602+08:00)
+2026-06-10 08:24:11,202 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:29:07 CST)" executed successfully
+2026-06-10 08:29:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:34:07 CST)" (scheduled at 2026-06-10 08:29:07.874602+08:00)
+2026-06-10 08:29:08,608 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:34:07 CST)" executed successfully
+2026-06-10 08:34:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:39:07 CST)" (scheduled at 2026-06-10 08:34:07.874602+08:00)
+2026-06-10 08:34:08,773 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:39:07 CST)" executed successfully
+2026-06-10 08:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:44:07 CST)" (scheduled at 2026-06-10 08:39:07.874602+08:00)
+2026-06-10 08:39:09,334 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:44:07 CST)" executed successfully
+2026-06-10 08:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:49:07 CST)" (scheduled at 2026-06-10 08:44:07.874602+08:00)
+2026-06-10 08:44:09,873 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:49:07 CST)" executed successfully
+2026-06-10 08:49:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:54:07 CST)" (scheduled at 2026-06-10 08:49:07.874602+08:00)
+2026-06-10 08:49:11,331 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:54:07 CST)" executed successfully
+2026-06-10 08:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:59:07 CST)" (scheduled at 2026-06-10 08:54:07.874602+08:00)
+2026-06-10 08:54:08,778 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 08:59:07 CST)" executed successfully
+2026-06-10 08:59:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:04:07 CST)" (scheduled at 2026-06-10 08:59:07.874602+08:00)
+2026-06-10 08:59:11,669 [INFO] monitor.pipeline: 序列 20260608005512: 2 行
+2026-06-10 08:59:11,717 [ERROR] monitor.pipeline: 刷新失败 20260608005512: 'models'
+2026-06-10 08:59:18,439 [INFO] monitor.pipeline: 序列 20260608005511: 2 行
+2026-06-10 08:59:18,490 [ERROR] monitor.pipeline: 刷新失败 20260608005511: 'models'
+2026-06-10 08:59:18,492 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:04:07 CST)" executed successfully
+2026-06-10 09:00:00,000 [INFO] apscheduler.executors.default: Running job "main.<locals>.<lambda> (trigger: cron[hour='9', minute='0'], next run at: 2026-06-11 09:00:00 CST)" (scheduled at 2026-06-10 09:00:00+08:00)
+2026-06-10 09:00:01,938 [INFO] monitor.pipeline: 序列 20260610004420: 1 行
+2026-06-10 09:00:28,125 [INFO] apscheduler.executors.default: Job "main.<locals>.<lambda> (trigger: cron[hour='9', minute='0'], next run at: 2026-06-11 09:00:00 CST)" executed successfully
+2026-06-10 09:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:09:07 CST)" (scheduled at 2026-06-10 09:04:07.874602+08:00)
+2026-06-10 09:04:10,850 [INFO] monitor.pipeline: 序列 20260610004420: 1 行
+2026-06-10 09:04:10,908 [ERROR] monitor.pipeline: 赛题流水线失败 20260610004420: 'models'
+2026-06-10 09:04:13,943 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:09:07 CST)" executed successfully
+2026-06-10 09:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:14:07 CST)" (scheduled at 2026-06-10 09:09:07.874602+08:00)
+2026-06-10 09:09:09,048 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:14:07 CST)" executed successfully
+2026-06-10 09:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:19:07 CST)" (scheduled at 2026-06-10 09:14:07.874602+08:00)
+2026-06-10 09:14:09,558 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:19:07 CST)" executed successfully
+2026-06-10 09:19:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:24:07 CST)" (scheduled at 2026-06-10 09:19:07.874602+08:00)
+2026-06-10 09:19:09,101 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:24:07 CST)" executed successfully
+2026-06-10 09:24:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:29:07 CST)" (scheduled at 2026-06-10 09:24:07.874602+08:00)
+2026-06-10 09:24:09,306 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:29:07 CST)" executed successfully
+2026-06-10 09:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:34:07 CST)" (scheduled at 2026-06-10 09:29:07.874602+08:00)
+2026-06-10 09:29:10,006 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:34:07 CST)" executed successfully
+2026-06-10 09:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:39:07 CST)" (scheduled at 2026-06-10 09:34:07.874602+08:00)
+2026-06-10 09:34:08,833 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:39:07 CST)" executed successfully
+2026-06-10 09:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:44:07 CST)" (scheduled at 2026-06-10 09:39:07.874602+08:00)
+2026-06-10 09:39:09,062 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:44:07 CST)" executed successfully
+2026-06-10 09:44:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:49:07 CST)" (scheduled at 2026-06-10 09:44:07.874602+08:00)
+2026-06-10 09:44:09,807 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:49:07 CST)" executed successfully
+2026-06-10 09:49:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:54:07 CST)" (scheduled at 2026-06-10 09:49:07.874602+08:00)
+2026-06-10 09:49:08,638 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:54:07 CST)" executed successfully
+2026-06-10 09:54:07,874 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:59:07 CST)" (scheduled at 2026-06-10 09:54:07.874602+08:00)
+2026-06-10 09:54:09,089 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 09:59:07 CST)" executed successfully
+2026-06-10 09:59:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:04:07 CST)" (scheduled at 2026-06-10 09:59:07.874602+08:00)
+2026-06-10 09:59:09,036 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:04:07 CST)" executed successfully
+2026-06-10 10:04:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:09:07 CST)" (scheduled at 2026-06-10 10:04:07.874602+08:00)
+2026-06-10 10:04:08,618 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:09:07 CST)" executed successfully
+2026-06-10 10:09:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:14:07 CST)" (scheduled at 2026-06-10 10:09:07.874602+08:00)
+2026-06-10 10:09:08,985 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:14:07 CST)" executed successfully
+2026-06-10 10:14:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:19:07 CST)" (scheduled at 2026-06-10 10:14:07.874602+08:00)
+2026-06-10 10:14:08,686 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:19:07 CST)" executed successfully
+2026-06-10 10:19:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:24:07 CST)" (scheduled at 2026-06-10 10:19:07.874602+08:00)
+2026-06-10 10:19:10,077 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:24:07 CST)" executed successfully
+2026-06-10 10:24:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:29:07 CST)" (scheduled at 2026-06-10 10:24:07.874602+08:00)
+2026-06-10 10:24:10,957 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:29:07 CST)" executed successfully
+2026-06-10 10:29:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:34:07 CST)" (scheduled at 2026-06-10 10:29:07.874602+08:00)
+2026-06-10 10:29:08,847 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:34:07 CST)" executed successfully
+2026-06-10 10:34:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:39:07 CST)" (scheduled at 2026-06-10 10:34:07.874602+08:00)
+2026-06-10 10:34:08,813 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:39:07 CST)" executed successfully
+2026-06-10 10:39:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:44:07 CST)" (scheduled at 2026-06-10 10:39:07.874602+08:00)
+2026-06-10 10:39:10,486 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:44:07 CST)" executed successfully
+2026-06-10 10:44:07,875 [INFO] apscheduler.executors.default: Running job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:49:07 CST)" (scheduled at 2026-06-10 10:44:07.874602+08:00)
+2026-06-10 10:44:10,564 [INFO] monitor.pipeline: 序列 20260610004421: 1 行
+2026-06-10 10:44:10,613 [ERROR] monitor.pipeline: 赛题流水线失败 20260610004421: 'models'
+2026-06-10 10:44:12,446 [INFO] apscheduler.executors.default: Job "run_pipeline (trigger: interval[0:05:00], next run at: 2026-06-10 10:49:07 CST)" executed successfully

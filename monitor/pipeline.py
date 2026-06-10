@@ -7,7 +7,7 @@ import os
 from datetime import datetime, timezone
 from typing import Any, Dict, Optional, Tuple
 
-from monitor.competition import is_competition_eligible
+from monitor.competition import is_competition_eligible, should_predict
 from monitor.config import get_config
 from monitor.deadlines import check_deadlines, hours_since_mainshock
 from monitor.detector import detect_new_events
@@ -89,10 +89,16 @@ def process_new_event(
         return
 
     eligible = ev["competition_eligible"]
+    predict = should_predict(ev, cfg)
     do_notify = _should_notify(ev, cfg)
     pred_result = None
 
-    if eligible:
+    if predict:
+        depth_note = ""
+        if predict and not eligible:
+            depth = float(ev.get("depth", 0))
+            depth_note = f"（深度 {depth:.0f}km > 70km，备用预测）"
+            logger.info("深源事件 %s depth=%.1fkm，仍生成预测%s", ev["event_id"], depth, depth_note)
         try:
             pred_result = run_competition_pipeline(ev, cfg, models_bundle=models_bundle)
             store.update_status(ev["event_id"], "predicted_t1t2", pred_result["output_dir"])
@@ -105,18 +111,18 @@ def process_new_event(
         store.update_status(ev["event_id"], "notify_only")
 
     if do_notify:
-        title = f"[余震监测] M{ev['mag']:.1f}" if not eligible else f"[余震赛] M{ev['mag']:.1f}"
+        title = f"[余震监测] M{ev['mag']:.1f}" if not predict else f"[余震赛] M{ev['mag']:.1f}"
         notify(cfg, title, format_new_event_message(ev, cfg, pred_result))
         row = store.get_event(ev["event_id"])
         if row and row["status"] in ("new", "notify_only", "pipeline_failed"):
-            store.update_status(ev["event_id"], "notified" if not eligible else row["status"])
+            store.update_status(ev["event_id"], "notified" if not predict else row["status"])
     else:
         store.update_status(ev["event_id"], "logged")
 
 
 def refresh_event(ev: Dict[str, Any], store: EventStore, cfg: Dict[str, Any], kind: str) -> None:
     ev = normalize_event(ev)
-    if not ev.get("competition_eligible"):
+    if not should_predict(ev, cfg):
         return
     try:
         pred_result = run_competition_pipeline(ev, cfg)

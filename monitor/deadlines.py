@@ -8,6 +8,7 @@ from typing import Any, Dict, List, Tuple
 
 import pandas as pd
 
+from monitor.competition import should_predict
 from monitor.notifier import notify, pd_timestamp_bj
 
 logger = logging.getLogger(__name__)
@@ -42,7 +43,7 @@ def check_deadlines(
     """
     sent = []
     for ev in store.list_active_events():
-        if not ev.get("competition_eligible"):
+        if not should_predict(ev, cfg):
             continue
         eid = ev["event_id"]
         h = hours_since_mainshock(ev)
